@@ -5,18 +5,18 @@ const units = {
 };
 
 const aliases = {
-  chia: ['ch', 'chia', 'Chia'],
-  mojo: ['mj', 'mojo'],
+  chia: ['cgn', 'chaingreen', 'Chaingreen'],
+  mojo: ['mio', 'MIO'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
   chia: {
-    format: '{amount} CH',
+    format: '{amount} CGN',
     fractionDigits: 12,
   },
-  mojo: {
-    format: '{amount} MJ',
+  mio: {
+    format: '{amount} MIO',
     fractionDigits: 0,
   },
   colouredcoin: {

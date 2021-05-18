@@ -250,7 +250,7 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance}
         tooltip={
           <Trans>
-            This is the total amount of chia in the blockchain at the current
+            This is the total amount of chaingreen in the blockchain at the current
             peak sub block that is controlled by your private keys. It includes
             frozen farming rewards, but not pending incoming and outgoing
             transactions.
@@ -262,9 +262,9 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance_spendable}
         tooltip={
           <Trans>
-            This is the amount of Chia that you can currently use to make
+            This is the amount of Chaingreen that you can currently use to make
             transactions. It does not include pending farming rewards, pending
-            incoming transactions, and Chia that you have just spent but is not
+            incoming transactions, and Chaingreen that you have just spent but is not
             yet in the blockchain.
           </Trans>
         }
@@ -413,7 +413,7 @@ function SendCard(props: SendCardProps) {
         openDialog(
           <AlertDialog>
             <Trans>
-              Error: Cannot send chia to coloured address. Please enter a chia
+              Error: Cannot send chaingreen to coloured address. Please enter a chaingreen
               address.
             </Trans>
           </AlertDialog>,
@@ -438,14 +438,7 @@ function SendCard(props: SendCardProps) {
   }
 
   return (
-    <Card
-      title={<Trans>Create Transaction</Trans>}
-      tooltip={(
-        <Trans>
-          On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute.
-        </Trans>
-      )}
-    >
+    <Card title={<Trans>Create Transaction</Trans>}>
       {result_message && (
         <Grid item xs={12}>
           <p className={result_class}>{result_message}</p>

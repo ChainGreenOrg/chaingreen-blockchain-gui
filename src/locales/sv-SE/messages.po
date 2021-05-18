@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sv_SE\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: Chaingreen-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-10 09:04\n"
+"PO-Revision-Date: 2021-04-26 16:03\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: Chaingreen-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vill du utforska Chias block lite mer? Ta en titt på <0>Chia Explorer</0> som har skapats som öppen källkod av en utvecklare."
+#~ msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
+#~ msgstr "*Vill du utforska Chaingreens block lite mer? Ta en titt på <0>Chaingreen Explorer</0> som har skapats som öppen källkod av en utvecklare."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -36,8 +36,8 @@ msgstr "En skördare är en tjänst som körs på en maskin där plottar lagras.
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
-msgstr "Om Chia Blockchain"
+msgid "About Chaingreen"
+msgstr "Om Chaingreen"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -92,12 +92,12 @@ msgstr "Lägg till mapp med plottar"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:405
 #: src/components/wallet/coloured/WalletColoured.tsx:457
-#: src/components/wallet/standard/WalletStandard.tsx:375
+#: src/components/wallet/standard/WalletStandard.tsx:373
 msgid "Address"
 msgstr "Adress"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:323
+#: src/components/wallet/standard/WalletStandard.tsx:321
 msgid "Address / Puzzle hash"
 msgstr "Adress/pusselhash"
 
@@ -106,7 +106,7 @@ msgstr "Adress/pusselhash"
 #: src/components/wallet/WalletHistory.tsx:49
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
-#: src/components/wallet/standard/WalletStandard.tsx:333
+#: src/components/wallet/standard/WalletStandard.tsx:331
 msgid "Amount"
 msgstr "Belopp"
 
@@ -187,8 +187,12 @@ msgid "Block VDF Iterations"
 msgstr "VDF-iterationer för block"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block vid höjd {0} i Chia-blockkedjan"
+#~ msgid "Block at height {0} in the Chaingreen"
+#~ msgstr "Block vid höjd {0} i Chaingreen-blockkedjan"
+
+#: src/components/block/Block.jsx:311
+msgid "Block at height {0} in the Chaingreen blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -199,7 +203,7 @@ msgid "Block with hash {headerHash}"
 msgstr "Block med hash {headerHash}"
 
 #: src/components/block/Block.jsx:158
-msgid "Block with hash {headerHash} does not exist."
+msgid "Block with hash {headerHash} does not exists."
 msgstr "Block med hash {headerHash} existerar inte."
 
 #: src/components/fullNode/FullNode.jsx:298
@@ -255,6 +259,18 @@ msgstr "Avbryt och spendera"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Var försiktig. Om dessa plottar tas bort försvinner de för alltid. Kontrollera att lagringsenheterna är ordentligt anslutna."
 
+#: src/electron/main.tsx:362
+#~ msgid "Chaingreen"
+#~ msgstr "Chaingreen"
+
+#: src/components/wallet/Wallets.tsx:32
+#~ msgid "Chaingreen Wallet"
+#~ msgstr "Chaingreen-plånbok"
+
+#: src/electron/main.tsx:312
+msgid "Chaingreen Wiki"
+msgstr "Chaingreens wiki"
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:13
 msgid "Challenge"
 msgstr "Verifiering"
@@ -269,15 +285,11 @@ msgstr "Chatta på KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchains wiki"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia-plånbok"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -388,7 +400,7 @@ msgstr "Kopierad"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:314
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:442
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:505
-#: src/components/wallet/standard/WalletStandard.tsx:379
+#: src/components/wallet/standard/WalletStandard.tsx:377
 msgid "Copy"
 msgstr "Kopiera"
 
@@ -591,8 +603,12 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: src/components/wallet/WalletImport.tsx:67
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+#~ msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Chaingreen-plånbok."
+
+#: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Chia-plånbok."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -605,8 +621,12 @@ msgid "Error"
 msgstr "Fel"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Fel: det går inte att skicka chia till färgad adress. Ange en chia-adress."
+#~ msgid "Error: Cannot send Chaingreen to coloured address. Please enter a Chaingreen address."
+#~ msgstr "Fel: det går inte att skicka Chaingreen till färgad adress. Ange en Chaingreen-adress."
+
+#: src/components/wallet/standard/WalletStandard.tsx:292
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr ""
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -636,13 +656,13 @@ msgstr "Det gick inte att öppna (ogiltiga plottar)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:26
 #: src/components/wallet/coloured/WalletColoured.tsx:430
-#: src/components/wallet/standard/WalletStandard.tsx:346
+#: src/components/wallet/standard/WalletStandard.tsx:344
 msgid "Farm"
 msgstr "Odling"
 
 #: src/components/block/Block.jsx:252
-msgid "Farmer Puzzle Hash"
-msgstr "Odlare-pusselhash"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Odlare-pusselhash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:95
 msgid "Farmer Reward Address"
@@ -683,7 +703,7 @@ msgstr "Odlingsstatus"
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
-#: src/components/wallet/standard/WalletStandard.tsx:338
+#: src/components/wallet/standard/WalletStandard.tsx:336
 msgid "Fee"
 msgstr "Avgift"
 
@@ -752,7 +772,7 @@ msgstr "Helskärm"
 msgid "Generate New Colour"
 msgstr "Skapa ny färg"
 
-#: src/components/wallet/standard/WalletStandard.tsx:369
+#: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD eller Hierarkiska Deterministiska nycklar är en typ av schema med publik nyckel/privat nyckel där en privat nyckel kan ha ett nästan oändligt antal olika publika nycklar (och därigenom mottagaradresser i plånboken) som alla i slutänden kan härledas tillbaka till och är spenderbara med en och samma privata nyckel."
 
@@ -778,7 +798,7 @@ msgstr "Höjd"
 msgid "Help"
 msgstr "Hjälp"
 
-#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:39
+#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:42
 msgid "Help translate"
 msgstr "Hjälp till med översättning"
 
@@ -966,7 +986,7 @@ msgstr "Nätverksnamn"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:471
-#: src/components/wallet/standard/WalletStandard.tsx:389
+#: src/components/wallet/standard/WalletStandard.tsx:387
 msgid "New Address"
 msgstr "Ny adress"
 
@@ -1063,10 +1083,6 @@ msgstr "Erbjudande"
 #: src/components/trading/TradingOverview.jsx:424
 msgid "Offers Created"
 msgstr "Skapade erbjudanden"
-
-#: src/components/wallet/standard/WalletStandard.tsx:312
-msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
-msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:19
 msgid "Outgoing"
@@ -1222,8 +1238,12 @@ msgid "Plots Passed Filter"
 msgstr "Plottar som passerat filtret"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
+#~ msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chaingreen. <0>Läs mer</0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chia. <0>Läs mer</0>"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1250,8 +1270,8 @@ msgid "Pool Public Key"
 msgstr "Publik nyckel för pool"
 
 #: src/components/block/Block.jsx:260
-msgid "Pool Puzzle Hash"
-msgstr "Pool-pusselhash"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Pool-pusselhash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:96
 msgid "Pool Reward Address"
@@ -1358,7 +1378,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Konfiguration av spenderbegränsad användarplånbok"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:453
-#: src/components/wallet/standard/WalletStandard.tsx:369
+#: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "Receive Address"
 msgstr "Mottagaradress"
 
@@ -1376,7 +1396,7 @@ msgstr "Viktig information"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:23
 msgid "Removing"
-msgstr "Tar bort"
+msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:206
 msgid "Rename"
@@ -1474,7 +1494,7 @@ msgstr "Sälj"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:435
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:798
-#: src/components/wallet/standard/WalletStandard.tsx:351
+#: src/components/wallet/standard/WalletStandard.tsx:349
 msgid "Send"
 msgstr "Skicka"
 
@@ -1544,8 +1564,13 @@ msgstr "Längd på spenderintervall (antal block)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
+#~ msgid "Spending Limit (Chaingreen per interval): {0}"
+#~ msgstr "Spenderbegränsning (Chaingreen per intervall): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Spenderbegränsning (chia per intervall): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:94
 msgid "State"
@@ -1592,8 +1617,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Chaingreen"
+#~ msgstr "Sub Block at height {0} in the Chaingreen"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1693,8 +1718,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Denna funktion kan bara användas från GUI."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Detta är den mängd Chia du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chia som du just spenderat men som ännu inte finns i blockkedjan."
+msgid "This is the amount of Chaingreen that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chaingreen that you have just spent but is not yet in the blockchain."
+msgstr "Detta är den mängd Chaingreen du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chaingreen som du just spenderat men som ännu inte finns i blockkedjan."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1713,8 +1738,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Detta är den tidpunkt då blocket skapades av odlaren, vilket är innan det färdigställs med ett bevis-på-tid"
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Detta är den sammanlagda mängden chia i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+#~ msgid "This is the total amount of Chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Detta är den sammanlagda mängden Chaingreen i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+
+#: src/components/wallet/standard/WalletStandard.tsx:195
+msgid "This is the total amount of chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1741,8 +1770,12 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Denna affärstransaktion lades till i blockkedjan vid denna blockhöjd"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
+#~ msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Denna version av Chaingreen är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
+
+#: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Denna version av Chia är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
 msgid "Time Created"
@@ -1766,8 +1799,8 @@ msgstr "Till"
 msgid "Total Balance"
 msgstr "Totalt saldo"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:15
+#~ msgid "Total Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:191
@@ -1796,7 +1829,7 @@ msgstr "Totalt antal iterationer sedan blockkedjan startade"
 
 #: src/components/dashboard/DashboardSideBar.tsx:27
 #~ msgid "Trade"
-#~ msgstr "Trade"
+#~ msgstr "Handel"
 
 #: src/components/trading/TradingOverview.jsx:360
 msgid "Trade Details"
@@ -1892,12 +1925,12 @@ msgstr "Väntar på synkronisering"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/wallet/Wallets.tsx:34
-#~ msgid "WalletItem.ccWallet"
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.ChaingreenWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#: src/components/wallet/Wallets.tsx:34
+#~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1930,8 +1963,12 @@ msgstr "Plånböcker"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
+#~ msgid "Want to earn more Chaingreen? Add more plots to your farm."
+#~ msgstr "Vill du tjäna mer Chaingreen? Lägg till fler plottar till din odling."
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vill du tjäna mer Chia? Lägg till fler plottar till din odling."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1946,8 +1983,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Vikt är den sammanlagda svårighetsgraden för alla underblock upp till och inklusive detta"
 
 #: src/components/selectKey/SelectKey.tsx:77
+#~ msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
+#~ msgstr "Välkommen till Chaingreen. Logga in med en existerande nyckel, eller skapa en ny nyckel."
+
+#: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Välkommen till Chia. Logga in med en existerande nyckel, eller skapa en ny nyckel."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -1998,8 +2039,8 @@ msgstr "Du har {0}% av utrymmet på nätverket, skapande av ett block förvänta
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Chaingreen application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Chaingreen application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2015,11 +2056,11 @@ msgstr "Ditt nätverk av skördare"
 
 #: src/util/getDescriptiveError.ts:4
 msgid "[Error 13] Permission denied. You are trying to access a file/directory without having the necessary permissions. Most likely one of the plot folders in your config.yaml has an issue."
-msgstr "[Felkod 13] Åtkomst nekan. Du saknar behörighet till en fil eller katalog. Troligtvis för en av katalogerna för plottar i din config.yaml."
+msgstr ""
 
 #: src/util/getDescriptiveError.ts:7
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
-msgstr "[Felkod 22] Filen går inte att hitta. Troligtvis en av katalog för plottar i din config.yaml som är felaktig."
+msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:121
@@ -2062,9 +2103,9 @@ msgstr "synkar"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} blockbelöningar"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Totalt antal Chia som odlats"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:17
+msgid "{currencyCode} Total Farmed"
+msgstr "{currencyCode} Totalt antal Chaingreen som odlats"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

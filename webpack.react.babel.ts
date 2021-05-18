@@ -64,6 +64,9 @@ export default {
     filename: 'js/[name].js',
     publicPath: './',
   },
+  externals: {
+    electron: 'electron',
+  },
   resolve: {
     extensions: ['.wasm', '.mjs', '.ts', '.tsx', '.js', '.jsx', '.json'],
     modules: [
@@ -120,7 +123,6 @@ export default {
     }),
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      inject: 'body',
     }),
     DEV && new ReactRefreshWebpackPlugin(),
   ].filter(Boolean),

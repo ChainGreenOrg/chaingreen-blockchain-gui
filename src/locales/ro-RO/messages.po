@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ro_RO\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: Chaingreen-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-10 09:03\n"
+"PO-Revision-Date: 2021-04-26 16:02\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: Chaingreen-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Vrei să explorezi blocurile Chia mai mult? Verifică <0>Chia Explorer</0> construit de către un dezvoltator open-source."
+#~ msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
+#~ msgstr "Vrei să explorezi blocurile Chaingreen mai mult? Verifică <0>Chaingreen Explorer</0> construit de către un dezvoltator open-source."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -36,8 +36,8 @@ msgstr "Un 'cultivator' este un serviciu care rulează pe o mașină care dețin
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
-msgstr "Despre blockchain-ul Chia"
+msgid "About Chaingreen"
+msgstr "Despre blockchain-ul Chaingreen"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -92,12 +92,12 @@ msgstr "Adaugă un director cu parcele"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:405
 #: src/components/wallet/coloured/WalletColoured.tsx:457
-#: src/components/wallet/standard/WalletStandard.tsx:375
+#: src/components/wallet/standard/WalletStandard.tsx:373
 msgid "Address"
 msgstr "Adresă"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:323
+#: src/components/wallet/standard/WalletStandard.tsx:321
 msgid "Address / Puzzle hash"
 msgstr "Adresă / Hash enigmă"
 
@@ -106,7 +106,7 @@ msgstr "Adresă / Hash enigmă"
 #: src/components/wallet/WalletHistory.tsx:49
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
-#: src/components/wallet/standard/WalletStandard.tsx:333
+#: src/components/wallet/standard/WalletStandard.tsx:331
 msgid "Amount"
 msgstr "Sumă"
 
@@ -187,8 +187,12 @@ msgid "Block VDF Iterations"
 msgstr "Iterațiile VDF pentru bloc"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Bloc la înălțimea {0} în blockchainul Chia"
+#~ msgid "Block at height {0} in the Chaingreen"
+#~ msgstr "Bloc la înălțimea {0} în blockchainul Chaingreen"
+
+#: src/components/block/Block.jsx:311
+msgid "Block at height {0} in the Chaingreen blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -199,7 +203,7 @@ msgid "Block with hash {headerHash}"
 msgstr "Bloc cu hash {headerHash}"
 
 #: src/components/block/Block.jsx:158
-msgid "Block with hash {headerHash} does not exist."
+msgid "Block with hash {headerHash} does not exists."
 msgstr "Blocul cu hash-ul {headerHash} nu există."
 
 #: src/components/fullNode/FullNode.jsx:298
@@ -255,6 +259,18 @@ msgstr "Anulează și cheltuie"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Atenție, îndepărtarea acestor parcele le va șterge definitiv. Verifică dacă dispozitivele de stocare sunt conectate corespunzator."
 
+#: src/electron/main.tsx:362
+#~ msgid "Chaingreen"
+#~ msgstr "Chaingreen"
+
+#: src/components/wallet/Wallets.tsx:32
+#~ msgid "Chaingreen Wallet"
+#~ msgstr "Portofel Chaingreen"
+
+#: src/electron/main.tsx:312
+msgid "Chaingreen Wiki"
+msgstr "Wiki Blockchain Chaingreen"
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:13
 msgid "Challenge"
 msgstr "Provocare"
@@ -269,15 +285,11 @@ msgstr "Discută pe KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Blockchain Chia"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Portofel Chia"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -388,7 +400,7 @@ msgstr "Copiat"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:314
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:442
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:505
-#: src/components/wallet/standard/WalletStandard.tsx:379
+#: src/components/wallet/standard/WalletStandard.tsx:377
 msgid "Copy"
 msgstr "Copiază"
 
@@ -591,8 +603,12 @@ msgid "Edit"
 msgstr "Editare"
 
 #: src/components/wallet/WalletImport.tsx:67
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+#~ msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chaingreen."
+
+#: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chia."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -605,8 +621,12 @@ msgid "Error"
 msgstr "Eroare"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Eroare: Nu se poate trimite chia la adresa colorată. Vă rugăm să introduceți o adresă chia."
+#~ msgid "Error: Cannot send Chaingreen to coloured address. Please enter a Chaingreen address."
+#~ msgstr "Eroare: Nu se poate trimite Chaingreen la adresa colorată. Vă rugăm să introduceți o adresă Chaingreen."
+
+#: src/components/wallet/standard/WalletStandard.tsx:292
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr ""
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -636,13 +656,13 @@ msgstr "Deschiderea nu a reușit (parcele invalide)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:26
 #: src/components/wallet/coloured/WalletColoured.tsx:430
-#: src/components/wallet/standard/WalletStandard.tsx:346
+#: src/components/wallet/standard/WalletStandard.tsx:344
 msgid "Farm"
 msgstr "Ferma"
 
 #: src/components/block/Block.jsx:252
-msgid "Farmer Puzzle Hash"
-msgstr "Farmer Puzzle Hash"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Farmer Puzzle Hash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:95
 msgid "Farmer Reward Address"
@@ -683,7 +703,7 @@ msgstr "Stare cultivare"
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
-#: src/components/wallet/standard/WalletStandard.tsx:338
+#: src/components/wallet/standard/WalletStandard.tsx:336
 msgid "Fee"
 msgstr "Taxe"
 
@@ -752,7 +772,7 @@ msgstr "Ecran Complet"
 msgid "Generate New Colour"
 msgstr "Genereaza culoare noua"
 
-#: src/components/wallet/standard/WalletStandard.tsx:369
+#: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "Cheile DI sau Deterministic Ierarhice sunt un tip de schemă de cheie publică/cheie privată în care o cheie privată poate avea un număr aproape infinit de chei publice diferite (și, prin urmare, adrese de intrare în portofel), care în cele din urmă converg la și vor putea fi cheltuite de o singură cheie privată."
 
@@ -778,7 +798,7 @@ msgstr "Înălțime"
 msgid "Help"
 msgstr "Ajutor"
 
-#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:39
+#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:42
 msgid "Help translate"
 msgstr "Ajuta la traducere"
 
@@ -966,7 +986,7 @@ msgstr "Nume Rețea"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:471
-#: src/components/wallet/standard/WalletStandard.tsx:389
+#: src/components/wallet/standard/WalletStandard.tsx:387
 msgid "New Address"
 msgstr "Adresă nouă"
 
@@ -1063,10 +1083,6 @@ msgstr "Ofertă"
 #: src/components/trading/TradingOverview.jsx:424
 msgid "Offers Created"
 msgstr "Oferte Create"
-
-#: src/components/wallet/standard/WalletStandard.tsx:312
-msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
-msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:19
 msgid "Outgoing"
@@ -1222,8 +1238,12 @@ msgid "Plots Passed Filter"
 msgstr "Parcele Filtrate"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
+#~ msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Chaingreen. <0>Află mai multe</0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Chia. <0>Află mai multe</0>"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1250,8 +1270,8 @@ msgid "Pool Public Key"
 msgstr "Cheie Publică Asociație"
 
 #: src/components/block/Block.jsx:260
-msgid "Pool Puzzle Hash"
-msgstr "Hash Enigmă Asociație"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Hash Enigmă Asociație"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:96
 msgid "Pool Reward Address"
@@ -1358,7 +1378,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Setare portofel limitat pentru utilizatori"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:453
-#: src/components/wallet/standard/WalletStandard.tsx:369
+#: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "Receive Address"
 msgstr "Adresă de primire"
 
@@ -1474,7 +1494,7 @@ msgstr "Vinde"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:435
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:798
-#: src/components/wallet/standard/WalletStandard.tsx:351
+#: src/components/wallet/standard/WalletStandard.tsx:349
 msgid "Send"
 msgstr "Trimite"
 
@@ -1544,8 +1564,13 @@ msgstr "Lungimea intervalului pentru cheltuieli (număr de blocuri)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
+#~ msgid "Spending Limit (Chaingreen per interval): {0}"
+#~ msgstr "Limită de cheltuieli (Chaingreen per interval): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limită de cheltuieli (Chia per interval): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:94
 msgid "State"
@@ -1592,8 +1617,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Chaingreen"
+#~ msgstr "Sub Block at height {0} in the Chaingreen"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1693,8 +1718,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Aceasta facilitate este disponibila doar din GUI."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Aceasta este suma de Chia pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Chia pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
+msgid "This is the amount of Chaingreen that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chaingreen that you have just spent but is not yet in the blockchain."
+msgstr "Aceasta este suma de Chaingreen pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Chaingreen pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1713,8 +1738,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Acesta este momentul în care blocul a fost creat de fermier, care este înainte de a fi finalizat cu o 'proof of time'"
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Aceasta este cantitatea totală de chia din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
+#~ msgid "This is the total amount of Chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Aceasta este cantitatea totală de Chaingreen din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
+
+#: src/components/wallet/standard/WalletStandard.tsx:195
+msgid "This is the total amount of chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1739,6 +1768,10 @@ msgstr "Această tranzacție a fost creată în acest moment"
 #: src/components/trading/TradingOverview.jsx:206
 msgid "This trade was included on blockchain at this block height"
 msgstr "Această tranzacție a fost inclusă pe blockchain la această înălțime a blocului"
+
+#: src/components/app/AppTimeBombAlert.tsx:11
+#~ msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr ""
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
@@ -1766,8 +1799,8 @@ msgstr "Catre"
 msgid "Total Balance"
 msgstr "Sold Total"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:15
+#~ msgid "Total Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:191
@@ -1796,7 +1829,7 @@ msgstr "Totalul iteratiilor de la inceputul blockchain-ului"
 
 #: src/components/dashboard/DashboardSideBar.tsx:27
 #~ msgid "Trade"
-#~ msgstr "Trade"
+#~ msgstr "Tranzactii"
 
 #: src/components/trading/TradingOverview.jsx:360
 msgid "Trade Details"
@@ -1892,12 +1925,12 @@ msgstr "Asteapta sincronizarea"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/wallet/Wallets.tsx:34
-#~ msgid "WalletItem.ccWallet"
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.ChaingreenWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#: src/components/wallet/Wallets.tsx:34
+#~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1930,8 +1963,12 @@ msgstr "Portofele"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
+#~ msgid "Want to earn more Chaingreen? Add more plots to your farm."
+#~ msgstr "Vrei să câștigi mai multe Chaingreen? Adaugă mai multe parcele la ferma ta."
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vrei să câștigi mai multe Chia? Adaugă mai multe parcele la ferma ta."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1946,8 +1983,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Greutatea este dificultatea totala adaugata a tuturor subblocurilor până la acesta inclusiv"
 
 #: src/components/selectKey/SelectKey.tsx:77
+#~ msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
+#~ msgstr "Bine ati venit la Chaingreen. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
+
+#: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Bine ati venit la Chia. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -1996,8 +2037,8 @@ msgstr ""
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Chaingreen application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Chaingreen application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2060,9 +2101,9 @@ msgstr "se sincronizeaza"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Răsplată Blocuri"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia cultivat"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:17
+msgid "{currencyCode} Total Farmed"
+msgstr "{currencyCode} Total Chaingreen cultivat"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

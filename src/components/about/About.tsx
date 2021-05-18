@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://chaingreen.org';
 
 type Props = {
   version: string;
@@ -113,7 +113,7 @@ export default function About(props: Props) {
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
         <div className="copyright">
-          Copyright (c) 2021 Chia Network
+          Copyright (c) 2021 Chaingreen
         </div>
         <Spacer />
         <VersionsTable>

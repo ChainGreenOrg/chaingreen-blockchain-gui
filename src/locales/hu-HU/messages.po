@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu_HU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: Chaingreen-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-10 08:31\n"
+"PO-Revision-Date: 2021-04-26 16:03\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: Chaingreen-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Felszeretnéd fedezni a Chia rendszerét bővebben? Csekkold a <0> Chia Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -28,16 +28,16 @@ msgstr "Felszeretnéd fedezni a Chia rendszerét bővebben? Csekkold a <0> Chia 
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 msgid "128 buckets is recommended"
-msgstr "128 vödör az ajánlott"
+msgstr ""
 
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:58
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
-msgstr "A betakarító egy szolgáltatás ahol a cserép(cserepek) valójában tárolásra kerülnek. A gazdász és a betakarító kommunikációjából kivehető egy teljes rész, hogy látható legyen miként is áll a lánc. Alább láthatód azokat a betakarítókat akik a hálózatodhoz vannak csatlakozva. Tuddj meg többet"
+msgstr ""
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
-msgstr "A Chia Blockchain-ről"
+msgid "About Chaingreen"
+msgstr "A Chaingreen-ről"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -45,7 +45,7 @@ msgstr "Elfogad"
 
 #: src/components/trading/TradingOverview.jsx:230
 msgid "Accepted at time:"
-msgstr "Elfogadásnak az ideje:"
+msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
@@ -65,11 +65,11 @@ msgstr "Hozzáadás"
 
 #: src/components/plot/PlotHeader.tsx:51
 msgid "Add Plot Directory"
-msgstr "Adj Cserepet a leltáradba"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:44
 msgid "Add Plot to Queue"
-msgstr "Tégy cserepet a sorba"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:83
 msgid "Add Wallet"
@@ -99,7 +99,7 @@ msgstr "Cím"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
 #: src/components/wallet/standard/WalletStandard.tsx:321
 msgid "Address / Puzzle hash"
-msgstr "Cím / Kirakós hash"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:16
@@ -112,16 +112,16 @@ msgstr "Összeg "
 
 #: src/components/wallet/coloured/WalletColoured.tsx:415
 msgid "Amount ({cc_unit})"
-msgstr "Mennyiség ({cc_unit})"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:259
 msgid "Amount For Initial Coin"
-msgstr "Az aktuális érme mennyiség"
+msgstr ""
 
 #: src/components/plot/PlotAction.tsx:30
-#: src/components/plot/queue/PlotQueueActions.tsx:31
+#: src/components/plot/queue/PlotQueueActions.tsx:32
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
-msgstr "Biztos vagy benne, hogy törlöd ezt a cserepet? A törölt cserép nem visszaállítható."
+msgstr ""
 
 #: src/components/fullNode/FullNodeCloseConnection.tsx:23
 msgid "Are you sure you want to disconnect?"
@@ -129,7 +129,7 @@ msgstr "Biztos megszakítod?"
 
 #: src/electron/main.tsx:164
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
-msgstr "Biztos vagy benne, hogy kilépsz? Az ültetés és a gyűjtés meg fog állni."
+msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
 #~ msgid "Are you sure you want to use k={plotSize}"
@@ -137,7 +137,7 @@ msgstr "Biztos vagy benne, hogy kilépsz? Az ültetés és a gyűjtés meg fog �
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
 msgid "Are you sure you want to use k={plotSize}?"
-msgstr "Biztos vagy benne, hogy használni szeretnéd k={plotSize}?"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:39
 #: src/components/selectKey/SelectKey.tsx:53
@@ -146,7 +146,7 @@ msgstr "Vissza"
 
 #: src/components/backup/BackupCreate.tsx:61
 msgid "Backup file is used to restore smart wallets."
-msgstr "A biztonsági mentés arra szolgál, hogy az okos pénztárca visszaállítható legyen."
+msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:286
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
@@ -156,16 +156,16 @@ msgstr "Egyenleg"
 
 #: src/components/block/Block.jsx:290
 msgid "Base Farmer Reward Amount"
-msgstr "Központi Gazdász Jutalom Mennyiség"
+msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:25
 #: src/components/farm/FarmLatestBlockChallenges.tsx:31
 msgid "Below are the current block challenges. You may or may not have a proof of space for these challenges. These blocks do not currently contain a proof of time."
-msgstr "Az alábbiakban az aktuális blokk kihívások következnek. Ezekhez a kihívásokhoz lehet, hogy van vagy nincs helybizonylatod. Ezek a blokkok jelenleg nem tartalmaznak időbizonylatot."
+msgstr ""
 
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:8
 msgid "Best estimate over last 24 hours"
-msgstr "Becslés az elmúlt 24 óra alapján"
+msgstr ""
 
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:8
 #~ msgid "Best estimate over last 5 hours"
@@ -184,11 +184,11 @@ msgstr "Block teszt"
 
 #: src/components/block/Block.jsx:230
 msgid "Block VDF Iterations"
-msgstr "VDF-iterációk blokkja"
+msgstr ""
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "{0} Magasságú blokk a Chia blokkláncban"
+msgid "Block at height {0} in the Chaingreen"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -196,11 +196,11 @@ msgstr "{0} Magasságú blokk a Chia blokkláncban"
 
 #: src/components/block/Block.jsx:129
 msgid "Block with hash {headerHash}"
-msgstr "Blokk hash {headerHash}"
+msgstr ""
 
 #: src/components/block/Block.jsx:158
-msgid "Block with hash {headerHash} does not exist."
-msgstr "A {headerHash} hash-t tartalmazó blokk nem létezik."
+msgid "Block with hash {headerHash} does not exists."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:298
 msgid "Blocks"
@@ -218,7 +218,7 @@ msgstr "Tallózás"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:50
 msgid "But you are currently farming <0/>"
-msgstr "De te jelenleg farmolsz <0/>"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:181
 #: src/components/trading/TradesTable.tsx:31
@@ -228,7 +228,7 @@ msgstr "Vásárlás"
 
 #: src/components/wallet/Wallets.tsx:36
 msgid "CC Wallet"
-msgstr "CC Tárca"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
@@ -249,11 +249,11 @@ msgstr "Mégsem"
 
 #: src/components/trading/TradingOverview.jsx:399
 msgid "Cancel and Spend"
-msgstr "Mégse és Fizetés"
+msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:26
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
-msgstr "Figyelem, ha törlöd ezeket a parcellákat, akkor örökre törlődnek. Ellenőrizd, hogy a tárolóeszközök megfelelően csatlakoztatva vannak-e."
+msgstr ""
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:13
 msgid "Challenge"
@@ -261,40 +261,40 @@ msgstr "Kihívás"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:11
 msgid "Challenge Hash"
-msgstr "Hash kihívás"
+msgstr ""
 
 #: src/electron/main.tsx:345
 msgid "Chat on KeyBase"
-msgstr "Csevegés a KeyBase-n"
+msgstr ""
 
 #: src/electron/main.tsx:362
-msgid "Chia"
-msgstr "Chia"
+msgid "Chaingreen"
+msgstr "Chaingreen"
 
 #: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blokklánc Wiki"
+msgid "Chaingreen Wiki"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
-msgstr "Chia Wallet"
+msgid "Chaingreen Wallet"
+msgstr "Chaingreen Wallet"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
-msgstr "Válaszd ki a cserepeid számát"
+msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:54
 msgid "Choose Plot Size"
-msgstr "Válassz cserép méretet"
+msgstr ""
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:76
-#: src/components/plot/queue/PlotQueueLogDialog.tsx:55
+#: src/components/plot/queue/PlotQueueLogDialog.tsx:48
 msgid "Close"
 msgstr "Bezárás"
 
 #: src/components/app/AppRouter.tsx:18
 msgid "Closing down node and server"
-msgstr "Node és szerver bezárása"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:376
 msgid "Coins:"
@@ -307,11 +307,11 @@ msgstr "Szin"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:181
 msgid "Colour Info"
-msgstr "Szín Információ"
+msgstr ""
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:115
 msgid "Colour String"
-msgstr "Szín Szál"
+msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:186
 msgid "Colour:"
@@ -319,11 +319,11 @@ msgstr "Szín:"
 
 #: src/components/wallet/create/WalletCreate.jsx:120
 msgid "Coloured Coin"
-msgstr "Színezett Érme"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:168
 msgid "Coloured Coin Options"
-msgstr "Színezett érme lehetőségek"
+msgstr ""
 
 #: src/electron/main.tsx:162
 msgid "Confirm"
@@ -331,15 +331,15 @@ msgstr "Megerősítés"
 
 #: src/components/fullNode/FullNodeCloseConnection.tsx:22
 msgid "Confirm Disconnect"
-msgstr "Megerősítés Lecsatlakozás"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:202
 msgid "Confirmed at block:"
-msgstr "Megerősítve ennél a blokknál:"
+msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:40
 msgid "Confirmed at height {0}"
-msgstr "Megerősítve ennél a magasságnál {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:70
 msgid "Connect"
@@ -348,7 +348,7 @@ msgstr "Csatlakozás"
 #: src/components/fullNode/FullNodeAddConnection.tsx:55
 #: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connect to other peers"
-msgstr "Csatlakozás másokhoz"
+msgstr ""
 
 #: src/components/core/components/FormatConnectionStatus/FormatConnectionStatus.tsx:47
 #: src/components/fullNode/FullNode.jsx:143
@@ -406,7 +406,7 @@ msgstr "Létrehoz"
 
 #: src/components/wallet/create/WalletCreate.jsx:308
 msgid "Create DID wallet"
-msgstr "DID tárca létrehozása"
+msgstr ""
 
 #: src/components/trading/TradeManager.tsx:22
 msgid "Create Offer"
@@ -414,15 +414,15 @@ msgstr "Ajánlat létrehozása"
 
 #: src/components/plot/add/PlotAdd.tsx:67
 msgid "Create Plot"
-msgstr "Cserép létrehozása"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:198
 msgid "Create Rate Limited Admin Wallet"
-msgstr "Korlátozott Arányú Admin Tárca létrehozása"
+msgstr ""
 
 #: src/components/wallet/create/createRLUser.jsx:78
 msgid "Create Rate Limited User Wallet"
-msgstr "Korlátozott Arányú Felhasználó Tárca létrehozása"
+msgstr ""
 
 #: src/components/trading/TradeManager.tsx:22
 #~ msgid "Create Trade"
@@ -436,7 +436,7 @@ msgstr "Kereskedelmi ajánlat létrehozása"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:729
 #: src/components/wallet/standard/WalletStandard.tsx:312
 msgid "Create Transaction"
-msgstr "Tranzakció létrehozása"
+msgstr ""
 
 #: src/components/backup/BackupCreate.tsx:58
 msgid "Create a Backup"
@@ -448,23 +448,23 @@ msgstr "Új titkos kulcs készítése"
 
 #: src/components/wallet/create/WalletCreate.jsx:244
 msgid "Create admin wallet"
-msgstr "Adminisztrátor tárca létrehozása"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:180
 msgid "Create new coloured coin"
-msgstr "Új színes érme létrehozása"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:256
 msgid "Create user wallet"
-msgstr "Felhasználó tárca létrehozása"
+msgstr ""
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:95
 msgid "Create wallet for colour"
-msgstr "Tárca létrehozása a színekhez"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:192
 msgid "Create wallet for existing colour"
-msgstr "Tárca létrehozása meglévő színekhez"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:81
 #~ msgid "CreateWallet.addWallet"
@@ -472,7 +472,7 @@ msgstr "Tárca létrehozása meglévő színekhez"
 
 #: src/components/trading/TradingOverview.jsx:188
 msgid "Created At:"
-msgstr "Létrehozva:"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:214
 msgid "Created by us:"
@@ -480,15 +480,15 @@ msgstr "Készítette:"
 
 #: src/components/trading/TradingOverview.jsx:184
 msgid "Current trade status"
-msgstr "Jelenlegi üzlet státusz"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:98
 msgid "DANGER: permanently delete private key"
-msgstr "VIGYÁZAT: Privát kulcs végleges törlése"
+msgstr ""
 
 #: src/components/wallet/Wallets.tsx:50
 msgid "DID Wallet"
-msgstr "DID tárca"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:310
 #~ msgid "DIDListItems.title"
@@ -506,22 +506,22 @@ msgstr "Késleltetés"
 
 #: src/components/plot/PlotAction.tsx:29
 #: src/components/plot/PlotAction.tsx:48
-#: src/components/plot/queue/PlotQueueActions.tsx:30
-#: src/components/plot/queue/PlotQueueActions.tsx:64
+#: src/components/plot/queue/PlotQueueActions.tsx:31
+#: src/components/plot/queue/PlotQueueActions.tsx:65
 #: src/components/selectKey/SelectKey.tsx:39
 #: src/components/selectKey/SelectKey.tsx:53
 msgid "Delete"
 msgstr "Törlés"
 
 #: src/components/plot/PlotAction.tsx:29
-#: src/components/plot/queue/PlotQueueActions.tsx:30
+#: src/components/plot/queue/PlotQueueActions.tsx:31
 msgid "Delete Plot"
-msgstr "Cserép törlése"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:53
 #: src/components/selectKey/SelectKey.tsx:122
 msgid "Delete all keys"
-msgstr "Minden kulcs törlése"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:39
 msgid "Delete key"
@@ -529,11 +529,11 @@ msgstr "Kulcs törlése"
 
 #: src/components/selectKey/SelectKey.tsx:54
 msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
-msgstr "Az összes kulcs törlése véglegesen eltávolítja a kulcsokat a számítógépedről, ezért gondoskodj biztonsági mentésekről. Biztos, hogy folytatni szeretnéd?"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:40
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
-msgstr "A kulcs törlése véglegesen eltávolítja a kulcsot a számítógépedről, ezért gondoskodj biztonsági mentésről. Biztos, hogy folytatni szeretnéd?"
+msgstr ""
 
 #: src/electron/main.tsx:260
 msgid "Developer"
@@ -554,7 +554,7 @@ msgstr "Bonyolultság"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:109
 msgid "Disable bitfield plotting"
-msgstr "Bitmező ábrázolás kikapcsolása"
+msgstr ""
 
 #: src/components/fullNode/FullNodeCloseConnection.tsx:22
 msgid "Disconnect"
@@ -566,33 +566,33 @@ msgstr "Kapcsolat bontása"
 
 #: src/components/wallet/create/WalletCreate.jsx:296
 msgid "Distributed Identity Options"
-msgstr "Elosztott azonosítási lehetőségek"
+msgstr ""
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:41
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
-msgstr "Vannak meglévő telkek ezen a gépen? <0>Telekkönyvtár Hozzáadása </0>"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:30
 msgid "Does your machine support parallel plotting?"
-msgstr "A géped támogatja a párhuzamos plottolást?"
+msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:41
 #: src/components/wallet/create/recoverDIDWallet.js:294
 msgid "Drag and drop offer file"
-msgstr "Húzza ide az ajánlatfájlt"
+msgstr ""
 
 #: src/components/backup/BackupRestore.tsx:114
 msgid "Drag and drop your backup file"
-msgstr "Húzza ide a mentett fájlt"
+msgstr ""
 
 #: src/electron/main.tsx:219
 msgid "Edit"
 msgstr "Módosítás"
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "A Chia pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -600,30 +600,30 @@ msgstr "A Chia pénztárca visszaállításához írja be az elmentett 24 szób�
 #: src/components/farm/card/FarmCardStatus.tsx:25
 #: src/components/plot/PlotStatus.tsx:17
 #: src/components/plot/PlotStatus.tsx:18
-#: src/components/plot/queue/PlotQueueIndicator.tsx:12
+#: src/components/plot/queue/PlotQueueIndicator.tsx:14
 msgid "Error"
 msgstr "Hiba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Hiba: A chia nem küldhető színes címre. Kérjük, adjon meg másik chia címet."
+msgid "Error: Cannot send Chaingreen to coloured address. Please enter a Chaingreen address."
+msgstr ""
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
 msgid "Estimated Time to Win"
-msgstr "Becsült idő a győzelemre"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:197
 msgid "Estimated network space"
-msgstr "Becsült hálózati kapacitás"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:200
 msgid "Estimated sum of all the plotted disk space of all farmers in the network"
-msgstr "A hálózat becsült összes lemezterületének összege"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:124
 msgid "Exclude final directory"
-msgstr "A végleges könyvtár kizárása"
+msgstr ""
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -632,13 +632,13 @@ msgstr "A végleges könyvtár kizárása"
 
 #: src/components/plot/PlotsFailed.tsx:24
 msgid "Failed to open (invalid plots)"
-msgstr "Nem sikerült megnyitni (érvénytelen plot)"
+msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:26
 #: src/components/wallet/coloured/WalletColoured.tsx:430
 #: src/components/wallet/standard/WalletStandard.tsx:344
 msgid "Farm"
-msgstr "Farm"
+msgstr ""
 
 #: src/components/block/Block.jsx:252
 msgid "Farmer Puzzle Hash"
@@ -646,28 +646,28 @@ msgstr ""
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:95
 msgid "Farmer Reward Address"
-msgstr "Farmer jutalom címe"
+msgstr ""
 
 #: src/components/farm/card/FarmCardStatus.tsx:21
 #: src/components/plot/PlotStatus.tsx:28
 msgid "Farmer is not connected"
-msgstr "Farmer nincs csatlakozva"
+msgstr ""
 
 #: src/components/farm/card/FarmCardStatus.tsx:26
 #: src/components/plot/PlotStatus.tsx:29
 msgid "Farmer is not running"
-msgstr "A farmer nem fut"
+msgstr ""
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:27
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
-msgstr "A  farmerek blokkjutalmakat és tranzakciós díjakat keresnek azzal, hogy tartalék helyet szánnak a hálózatnak a tranzakciók biztosítása érdekében. Itt lesz a farm, ha hozzáadsz egy telket. <0> További információ </0>"
+msgstr ""
 
 #: src/components/farm/Farm.tsx:15
 #: src/components/farm/FarmerStatus.tsx:27
 #: src/components/farm/card/FarmCardStatus.tsx:29
 #: src/components/plot/PlotStatus.tsx:14
 msgid "Farming"
-msgstr "Farmolás"
+msgstr ""
 
 #: src/components/farm/card/FarmCardStatus.tsx:11
 #: src/components/farm/card/FarmCardStatus.tsx:16
@@ -675,7 +675,7 @@ msgstr "Farmolás"
 #: src/components/farm/card/FarmCardStatus.tsx:24
 #: src/components/farm/card/FarmCardStatus.tsx:28
 msgid "Farming Status"
-msgstr "Farmer státusz"
+msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:53
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
@@ -697,7 +697,7 @@ msgstr "Díj"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:422
 msgid "Fee ({currencyCode})"
-msgstr "Díjj"
+msgstr ""
 
 #: src/components/block/Block.jsx:294
 msgid "Fees Amount"
@@ -725,24 +725,24 @@ msgstr "Végleges mappa helye"
 #: src/components/fullNode/FullNode.jsx:41
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Finished"
-msgstr "Befejezve"
+msgstr ""
 
 #: src/electron/main.tsx:351
 msgid "Follow on Twitter"
-msgstr "Kövess minket a Twitteren"
+msgstr ""
 
 #: src/electron/main.tsx:318
 msgid "Frequently Asked Questions"
-msgstr "Gyakran Ismételt Kérdések"
+msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:23
 #: src/components/fullNode/FullNode.jsx:312
 msgid "Full Node"
-msgstr "Teljes csomópont"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:255
 msgid "Full Node Status"
-msgstr "Teljes csomópont állapota"
+msgstr ""
 
 #: src/electron/main.tsx:287
 msgid "Full Screen"
@@ -750,11 +750,11 @@ msgstr "Teljes képernyő"
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:106
 msgid "Generate New Colour"
-msgstr "Új szín létrehozása"
+msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
-msgstr "A HD vagy a hierarchikus determinisztikus kulcsok egyfajta nyilvános kulcs / magánkulcs séma, ahol egy magánkulcsnak csaknem végtelen számú különféle nyilvános kulcsa lehet (és ezért pénztárca fogad címeket is), amelyek végül visszatérnek és egyetlen magánfizetésre használhatók privát kulcs."
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -805,15 +805,15 @@ msgstr "IP cím / kiszolgáló"
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:85
 msgid "If none selected, then it will default to the temporary directory."
-msgstr "Ha egyik sincs kiválasztva, akkor az alapértelmezés szerint az ideiglenes könyvtár lesz"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:64
 msgid "Import Wallet from Mnemonics"
-msgstr "A Wallet importálása a Mnemonicsból"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:116
 msgid "Import from Mnemonics (24 words)"
-msgstr "Importálás a memonikából (24 szó)"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:43
 msgid "In Progress"
@@ -825,40 +825,40 @@ msgstr "Bejövő"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:15
 msgid "Index"
-msgstr "Tartalomjegyzék"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:218
 msgid "Indicated if this offer was created by us"
-msgstr "Jelzi, ha ezt az ajánlatot mi készítettük"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:234
 msgid "Indicated what time this offer was accepted"
-msgstr "Jelezte, hogy ezt az ajánlatot mikor fogadják el"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:342
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:491
 msgid "Info Packet"
-msgstr "Információs csomag"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:283
 msgid "Initial Amount"
-msgstr "Kezdeti összeg"
+msgstr ""
 
 #: src/components/wallet/create/createRLUser.jsx:89
 msgid "Initialize a Rate Limited User Wallet:"
-msgstr "Korlátozott Arányú Felhasználó Tárca létrehozása:"
+msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:234
 msgid "Interval"
-msgstr "Intervallum"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:37
 msgid "K-Size"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
-msgstr "Kulcsok"
+msgstr ""
 
 #: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:40
@@ -867,7 +867,7 @@ msgstr ""
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:37
 msgid "Last Attempted Proof"
-msgstr "Utoljára megkísérelt bizonyítás"
+msgstr ""
 
 #: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
 msgid "Last Height Farmed"
@@ -875,19 +875,19 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:23
 msgid "Latest Block Challenges"
-msgstr "Legfrissebb blokk kihívások"
+msgstr ""
 
-#: src/components/plot/queue/PlotQueueLogDialog.tsx:22
+#: src/components/plot/queue/PlotQueueLogDialog.tsx:15
 msgid "Loading..."
-msgstr "Betöltés…"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:80
 msgid "Local Harvester Plots"
-msgstr "Helyi betakarító parcellák"
+msgstr ""
 
 #: src/components/app/AppRouter.tsx:28
 msgid "Logging in"
-msgstr "Bejelentkezés"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:124
 #~ msgid "MainWalletList.colouredCoin"
@@ -931,11 +931,11 @@ msgstr "Bejelentkezés"
 
 #: src/components/farm/overview/FarmOverview.tsx:34
 msgid "Manage Farming Rewards"
-msgstr "A gazdálkodási jutalmak kezelése"
+msgstr ""
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:82
 msgid "Manage Your Farming Rewards Target Addresses"
-msgstr "Kezelje a gazdálkodási jutalmak célcímeit"
+msgstr ""
 
 #: src/components/fullNode/FullNodeConnections.tsx:43
 msgid "MiB Up/Down"
@@ -947,7 +947,7 @@ msgstr "Perc"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:73
 msgid "More memory slightly increases speed"
-msgstr "A több memória kissé növeli a sebességet"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:429
 msgid "My Pubkey"
@@ -968,11 +968,11 @@ msgstr "Hálózat neve"
 #: src/components/wallet/coloured/WalletColoured.tsx:471
 #: src/components/wallet/standard/WalletStandard.tsx:387
 msgid "New Address"
-msgstr "Új cím"
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:32
 msgid "New Wallet"
-msgstr "Új tárca hozzáadása"
+msgstr ""
 
 #: src/components/block/Block.jsx:325
 #: src/components/wallet/WalletAdd.tsx:47
@@ -989,9 +989,9 @@ msgstr "Becenév"
 msgid "No"
 msgstr "Nem"
 
-#: src/middleware/middleware_api.jsx:285
+#: src/middleware/middleware_api.jsx:283
 msgid "No 24 word seed, since this key is imported."
-msgstr "Nincs 24 szó mag, mivel ezt a kulcsot importálják."
+msgstr ""
 
 #: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
 msgid "No blocks farmed yet"
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:51
 msgid "OK"
-msgstr "Rendben"
+msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:71
 msgid "Offer"
@@ -1066,7 +1066,7 @@ msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:19
 msgid "Outgoing"
-msgstr "Kimenő"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:166
 msgid "Peak Height"
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:42
 msgid "Pending"
-msgstr "Függőben"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:604
 #: src/components/wallet/standard/WalletStandard.tsx:223
@@ -1092,7 +1092,7 @@ msgstr ""
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:613
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "Pending Change"
-msgstr "Függőben lévő módosítások"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:595
 #: src/components/wallet/standard/WalletStandard.tsx:218
@@ -1115,7 +1115,7 @@ msgstr ""
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:679
 #: src/components/wallet/standard/WalletStandard.tsx:278
 msgid "Please enter a valid numeric amount"
-msgstr "Kérjük, adjon meg egy érvényes adózás előtti összeget"
+msgstr ""
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:70
 #: src/components/wallet/create/createNewColouredCoin.jsx:81
@@ -1218,10 +1218,10 @@ msgid "Plots Passed Filter"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
 msgstr ""
 
-#: src/components/plot/queue/PlotQueueIndicator.tsx:21
+#: src/components/plot/queue/PlotQueueIndicator.tsx:8
 msgid "Plotting"
 msgstr ""
 
@@ -1262,11 +1262,11 @@ msgstr ""
 #: src/components/fullNode/FullNodeAddConnection.tsx:62
 #: src/components/fullNode/FullNodeConnections.tsx:33
 msgid "Port"
-msgstr "Port"
+msgstr ""
 
 #: src/components/block/Block.jsx:320
 msgid "Previous"
-msgstr "Előző"
+msgstr ""
 
 #: src/components/block/Block.jsx:203
 #~ msgid "Previous Block Hash"
@@ -1284,13 +1284,13 @@ msgstr ""
 msgid "Private key with public fingerprint {fingerprint}"
 msgstr ""
 
-#: src/middleware/middleware_api.jsx:249
+#: src/middleware/middleware_api.jsx:247
 msgid "Private key {0}"
 msgstr ""
 
-#: src/middleware/middleware_api.jsx:259
+#: src/middleware/middleware_api.jsx:257
 msgid "Private key:"
-msgstr "Privát kulcs:"
+msgstr ""
 
 #: src/components/block/Block.jsx:240
 msgid "Proof of Space Size"
@@ -1304,9 +1304,9 @@ msgstr ""
 msgid "Pubkey"
 msgstr ""
 
-#: src/middleware/middleware_api.jsx:267
+#: src/middleware/middleware_api.jsx:265
 msgid "Public key:"
-msgstr "Nyilvános kulcsok"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:103
 msgid "Queue Name"
@@ -1314,9 +1314,9 @@ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:43
 msgid "Queue name"
-msgstr "Várósor egyedi azonosítóneve"
+msgstr ""
 
-#: src/components/plot/queue/PlotQueueIndicator.tsx:22
+#: src/components/plot/queue/PlotQueueIndicator.tsx:11
 msgid "Queued"
 msgstr "Várakozik"
 
@@ -1330,7 +1330,7 @@ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:43
 msgid "RL Wallet"
-msgstr "Tárca hozzáadása"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
@@ -1338,7 +1338,7 @@ msgstr "Tárca hozzáadása"
 
 #: src/components/wallet/create/WalletCreate.jsx:130
 msgid "Rate Limited"
-msgstr "Forgalomkorlátozás"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:402
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:453
@@ -1368,10 +1368,6 @@ msgstr ""
 
 #: src/electron/main.tsx:324
 msgid "Release Notes"
-msgstr ""
-
-#: src/components/plot/queue/PlotQueueIndicator.tsx:23
-msgid "Removing"
 msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:206
@@ -1420,7 +1416,7 @@ msgstr ""
 msgid "See private key"
 msgstr ""
 
-#: src/middleware/middleware_api.jsx:277
+#: src/middleware/middleware_api.jsx:275
 msgid "Seed:"
 msgstr ""
 
@@ -1540,7 +1536,7 @@ msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (Chaingreen per interval): {0}"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:94
@@ -1588,8 +1584,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Chaingreen"
+#~ msgstr "Sub Block at height {0} in the Chaingreen"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1689,7 +1685,7 @@ msgid "This feature is available only from the GUI."
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Chaingreen that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chaingreen that you have just spent but is not yet in the blockchain."
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
@@ -1709,7 +1705,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of Chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
@@ -1737,7 +1733,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr ""
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1762,8 +1758,8 @@ msgstr "Címzett"
 msgid "Total Balance"
 msgstr ""
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:15
+#~ msgid "Total Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:191
@@ -1791,8 +1787,8 @@ msgid "Total iterations since the start of the blockchain"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:27
-#~ msgid "Trade"
-#~ msgstr "Trade"
+msgid "Trade"
+msgstr "Kereskedés"
 
 #: src/components/trading/TradingOverview.jsx:360
 msgid "Trade Details"
@@ -1855,8 +1851,8 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: src/components/plot/queue/PlotQueueActions.tsx:53
-#: src/components/plot/queue/PlotQueueLogDialog.tsx:33
+#: src/components/plot/queue/PlotQueueActions.tsx:54
+#: src/components/plot/queue/PlotQueueLogDialog.tsx:26
 msgid "View Log"
 msgstr ""
 
@@ -1893,7 +1889,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.ChaingreenWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1926,7 +1922,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1942,7 +1938,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35
@@ -1992,8 +1988,8 @@ msgstr ""
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Chaingreen application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Chaingreen application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2005,14 +2001,6 @@ msgstr ""
 
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:56
 msgid "Your Harvester Network"
-msgstr ""
-
-#: src/util/getDescriptiveError.ts:4
-msgid "[Error 13] Permission denied. You are trying to access a file/directory without having the necessary permissions. Most likely one of the plot folders in your config.yaml has an issue."
-msgstr ""
-
-#: src/util/getDescriptiveError.ts:7
-msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:30
@@ -2056,8 +2044,8 @@ msgstr "szinkronizálás"
 msgid "{currencyCode} Block Rewards"
 msgstr ""
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:17
+msgid "{currencyCode} Total Farmed"
 msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17

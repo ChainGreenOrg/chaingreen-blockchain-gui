@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import FarmCardStatus from '../card/FarmCardStatus';
-import FarmCardTotalChiaFarmed from '../card/FarmCardTotalChiaFarmed';
+import FarmCardTotalChiaFarmed from '../card/FarmCardTotalChaingreenFarmed';
 import FarmCardBlockRewards from '../card/FarmCardBlockRewards';
 import FarmCardUserFees from '../card/FarmCardUserFees';
 import FarmCardLastHeightFarmed from '../card/FarmCardLastHeightFarmed';

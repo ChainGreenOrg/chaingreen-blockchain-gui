@@ -84,31 +84,31 @@ chia_formatter.setFiat = (currency, rate, display = null) => {
 };
 
 export const mojo_to_chia = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo').to('chia').value();
+  return chia_formatter(Number.parseInt(mojo), 'mio').to('chaingreen').value();
 };
 
 export const chia_to_mojo = (chia) => {
-  return chia_formatter(Number.parseFloat(Number(chia)), 'chia')
-    .to('mojo')
+  return chia_formatter(Number.parseFloat(Number(chia)), 'chaingreen')
+    .to('mio')
     .value();
 };
 
 export const mojo_to_chia_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('chia').toString();
+  return chia_formatter(Number(mojo), 'mio').to('chaingreen').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo')
+  return chia_formatter(Number.parseInt(mojo), 'mio')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
   return chia_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
-    .to('mojo')
+    .to('mio')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return chia_formatter(Number(mojo), 'mio').to('colouredcoin').toString();
 };

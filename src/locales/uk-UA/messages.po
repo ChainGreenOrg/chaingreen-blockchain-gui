@@ -284,11 +284,11 @@ msgid "Chat on KeyBase"
 msgstr "Чат у KeyBase"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Chaingreen"
 msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Chaingreen Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -607,7 +607,7 @@ msgstr "Редагувати"
 #~ msgstr "Введіть мнемоніку з 24 слів, яку ви зберегли, для відновлення гаманця Chaingreen."
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
 msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -1242,7 +1242,7 @@ msgstr "Ділянки, що пройшли фільтр"
 #~ msgstr "Ділянки - виділений обсяг на вашому диску, який використовується для фермерства, щоб заробити Сhia. <0>Дізнатися більше</0>"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1774,7 +1774,7 @@ msgstr "Ця угода включена в blockchain на вказаній в�
 #~ msgstr "Ця версія Chaingreen більше не сумісна з blockchain і не може безпечно фармити."
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1967,7 +1967,7 @@ msgstr "Гаманці"
 #~ msgstr "Хочете заробити більше Chaingreen? Додайте більше ділянок у свою ферму."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1987,7 +1987,7 @@ msgstr "Вага - це загальна додана складність ус�
 #~ msgstr "Ласкаво просимо в Chaingreen. Будь ласка, увійдіть за допомогою існуючого ключа або створіть новий ключ."
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35

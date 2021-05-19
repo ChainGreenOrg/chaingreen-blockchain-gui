@@ -284,11 +284,11 @@ msgid "Chat on KeyBase"
 msgstr "在Keybase上参与讨论"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Chaingreen"
 msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Chaingreen Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -607,7 +607,7 @@ msgstr "编辑"
 #~ msgstr "输入你之前记下来的24个助记词以便现在恢复你的奇亚钱包"
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
 msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -1242,7 +1242,7 @@ msgstr "通过初筛的农田"
 #~ msgstr "农田就是在你的硬盘上分配的一块空间，用来收获奇亚币。<0>了解更多</0>"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1774,7 +1774,7 @@ msgstr "该交易在链上的区块高度"
 #~ msgstr "此版本的奇亚客户端与区块链已经不再兼容，无法安全地种植。"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1967,7 +1967,7 @@ msgstr "钱包"
 #~ msgstr "想要赚取更多奇亚币？ 给你的农场多开垦一些农田吧。"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1987,7 +1987,7 @@ msgstr "权重是施加给所有子块包括目前这块的额外的困难度."
 #~ msgstr "欢迎来到奇亚。请用已有的密钥登录，或者创建一个新的密钥。"
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35

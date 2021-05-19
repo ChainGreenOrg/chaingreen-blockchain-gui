@@ -3,7 +3,7 @@ const units = require("../../util/units");
 describe("units", () => {
   describe("#getUnit", () => {
     it("gets unit of chia", () => {
-      const result = units.getUnit("chia");
+      const result = units.getUnit("chaingreen");
 
       expect(result).toBe(1);
     });
@@ -47,7 +47,7 @@ describe("units", () => {
   });
   describe("#getDisplay", () => {
     it("gets display of chia", () => {
-      const result = units.getDisplay("chia");
+      const result = units.getDisplay("chaingreen");
 
       expect(result).toEqual({
         format: "{amount} CH",
@@ -87,13 +87,13 @@ describe("units", () => {
       expect(result).toEqual(1);
     });
     it("modifies an existing unit", () => {
-      units.setUnit("chia", 9);
+      units.setUnit("chaingreen", 9);
 
-      const result = units.getUnit("chia");
+      const result = units.getUnit("chaingreen");
 
       expect(result).toEqual(9);
 
-      units.setUnit("chia", 1);
+      units.setUnit("chaingreen", 1);
     });
   });
   describe("#setDisplay", () => {
@@ -111,12 +111,12 @@ describe("units", () => {
       });
     });
     it("updates an existing display", () => {
-      units.setDisplay("chia", {
+      units.setDisplay("chaingreen", {
         format: "{amount} TXCH",
         fractionDigits: 0
       });
 
-      const result = units.getDisplay("chia");
+      const result = units.getDisplay("chaingreen");
 
       expect(result).toEqual({
         format: "{amount} TXCH",

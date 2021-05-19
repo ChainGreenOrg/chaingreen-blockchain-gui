@@ -284,11 +284,11 @@ msgid "Chat on KeyBase"
 msgstr "Discută pe KeyBase"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Chaingreen"
 msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Chaingreen Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -607,7 +607,7 @@ msgstr "Editare"
 #~ msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chaingreen."
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
 msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -1242,7 +1242,7 @@ msgstr "Parcele Filtrate"
 #~ msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Chaingreen. <0>Află mai multe</0>"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1774,7 +1774,7 @@ msgstr "Această tranzacție a fost inclusă pe blockchain la această înălți
 #~ msgstr ""
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1967,7 +1967,7 @@ msgstr "Portofele"
 #~ msgstr "Vrei să câștigi mai multe Chaingreen? Adaugă mai multe parcele la ferma ta."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1987,7 +1987,7 @@ msgstr "Greutatea este dificultatea totala adaugata a tuturor subblocurilor pân
 #~ msgstr "Bine ati venit la Chaingreen. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35

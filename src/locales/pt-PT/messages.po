@@ -284,11 +284,11 @@ msgid "Chat on KeyBase"
 msgstr "Chat no KeyBase"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Chaingreen"
 msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Chaingreen Wallet"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -607,7 +607,7 @@ msgstr "Editar"
 #~ msgstr "Digite o mnemônico de 24 palavras que você salvou para restaurar sua carteira Chaingreen."
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
 msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -1242,7 +1242,7 @@ msgstr "Plots Aprovados no FIltro"
 #~ msgstr "Os plots são alocados no espaço do seu disco rígido, usado para cultivar e ganhar Chaingreen. <0>Saiba mais</0>"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1774,7 +1774,7 @@ msgstr "Esta operação foi incluída na blockchain nesta altura do bloco"
 #~ msgstr "Esta versão do Chaingreen já não é mais compatível com a blockchain e não pode fazer farming com segurança."
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1967,7 +1967,7 @@ msgstr "Carteiras"
 #~ msgstr "Quer ganhar mais Chaingreen? Adicione mais plots à sua farm."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1987,7 +1987,7 @@ msgstr "O peso é a dificuldade total adicionada de todos os sub-blocos até e i
 #~ msgstr "Bem-vindo à Chaingreen. Faça login com uma chave existente ou crie uma nova chave."
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35

@@ -23,7 +23,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { mojo_to_chia_string, chia_to_mojo } from '../../../util/chia';
+import { mio_to_chaingreen_string, chaingreen_to_mio } from '../../../util/chaingreen';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -213,7 +213,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_chia_string(props.balance)} {currencyCode}
+            {mio_to_chaingreen_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -405,8 +405,8 @@ function SendCard(props: SendCardProps) {
       );
       return;
     }
-    const amount = chia_to_mojo(amount_input.value);
-    const fee = chia_to_mojo(fee_input.value);
+    const amount = chaingreen_to_mio(amount_input.value);
+    const fee = chaingreen_to_mio(fee_input.value);
 
     if (address.includes('colour')) {
       dispatch(
@@ -421,7 +421,7 @@ function SendCard(props: SendCardProps) {
       );
       return;
     }
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'chaingreen_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

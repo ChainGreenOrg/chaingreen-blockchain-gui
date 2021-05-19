@@ -2,13 +2,13 @@ const units = require("../../util/units");
 
 describe("units", () => {
   describe("#getUnit", () => {
-    it("gets unit of chia", () => {
+    it("gets unit of chaingreen", () => {
       const result = units.getUnit("chaingreen");
 
       expect(result).toBe(1);
     });
-    it("gets unit of mojo", () => {
-      const result = units.getUnit("mojo");
+    it("gets unit of mio", () => {
+      const result = units.getUnit("mio");
 
       expect(result).toBe(1e-12);
     });
@@ -18,16 +18,16 @@ describe("units", () => {
       expect(result).toBe(1e-9);
     });
     it("supports uppercase characters", () => {
-      const result = units.getUnit("CHIA");
+      const result = units.getUnit("CHAINGREEN");
 
       expect(result).toBe(1);
     });
-    it("gets unit of chia using alias", () => {
+    it("gets unit of chaingreen using alias", () => {
       const result = units.getUnit("ch");
 
       expect(result).toBe(1);
     });
-    it("gets unit of mojo using alias", () => {
+    it("gets unit of mio using alias", () => {
       const result = units.getUnit("mj");
 
       expect(result).toBe(1e-12);
@@ -46,7 +46,7 @@ describe("units", () => {
     });
   });
   describe("#getDisplay", () => {
-    it("gets display of chia", () => {
+    it("gets display of chaingreen", () => {
       const result = units.getDisplay("chaingreen");
 
       expect(result).toEqual({
@@ -54,8 +54,8 @@ describe("units", () => {
         fractionDigits: 12
       });
     });
-    it("gets display of mojo", () => {
-      const result = units.getDisplay("mojo");
+    it("gets display of mio", () => {
+      const result = units.getDisplay("mio");
 
       expect(result).toEqual({
         format: "{amount} MJ",

@@ -45,10 +45,10 @@ const getExecutablePath = (dist_file) => {
   return path.join(__dirname, PY_MAC_DIST_FOLDER, dist_file);
 };
 
-const getChiaVersion = () => {
+const getChaingreenVersion = () => {
   let version = null;
-  const exePath = getExecutablePath('chia');
-  // first see if we can get a chia exe in a standard location relative to where we are
+  const exePath = getExecutablePath('chaingreen');
+  // first see if we can get a chaingreen exe in a standard location relative to where we are
   try {
     version = child_process
       .execFileSync(exePath, ['version'], {
@@ -56,7 +56,7 @@ const getChiaVersion = () => {
       })
       .trim();
   } catch (e1) {
-    // that didn't work, let's try as if we're in the venv or chia is on the path
+    // that didn't work, let's try as if we're in the venv or chaingreen is on the path
     try {
       version = child_process
         .execFileSync(path.basename(exePath), ['version'], {
@@ -71,7 +71,7 @@ const getChiaVersion = () => {
   return version;
 };
 
-const startChiaDaemon = () => {
+const startChaingreenDaemon = () => {
   let script = getScriptPath(PY_DIST_FILE);
   let processOptions = {};
   //processOptions.detached = true;
@@ -138,7 +138,7 @@ const startChiaDaemon = () => {
 };
 
 module.exports = {
-  startChiaDaemon,
-  getChiaVersion,
+  startChaingreenDaemon,
+  getChaingreenVersion,
   guessPackaged,
 };

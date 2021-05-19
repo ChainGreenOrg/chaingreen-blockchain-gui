@@ -14,7 +14,7 @@ function loadConfig(version) {
   try {
     // finding the right config file uses this precedence
     // 1) CHAINGREEN_ROOT environment variable
-    // 2) version passed in and determined by the `chia version` call
+    // 2) version passed in and determined by the `chaingreen version` call
 
     // check if CHAINGREEN_ROOT is set. it overrides everything else
     const config_root_dir =

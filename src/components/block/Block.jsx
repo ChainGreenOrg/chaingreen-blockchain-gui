@@ -15,7 +15,7 @@ import {
   getBlockRecord,
   getBlock,
 } from '../../modules/fullnodeMessages';
-import { mojo_to_chia } from '../../util/chia';
+import { mio_to_chaingreen } from '../../util/chaingreen';
 import { calculatePoolReward, calculateBaseFarmerReward } from '../../util/blockRewards';
 import LayoutMain from '../layout/LayoutMain';
 import toBech32m from '../../util/toBech32m';
@@ -168,11 +168,11 @@ export default function Block() {
     ? blockRecord.weight - prevBlockRecord.weight
     : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_chia(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_chia(calculateBaseFarmerReward(blockRecord.height));
+  const poolReward = mio_to_chaingreen(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = mio_to_chaingreen(calculateBaseFarmerReward(blockRecord.height));
 
   const chiaFees = blockRecord.fees
-    ? mojo_to_chia(BigInt(blockRecord.fees))
+    ? mio_to_chaingreen(BigInt(blockRecord.fees))
     : '';
 
   const rows = [

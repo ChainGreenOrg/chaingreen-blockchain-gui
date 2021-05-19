@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_cc_action } from '../../../modules/message';
-import { chia_to_mojo } from '../../../util/chia';
+import { chaingreen_to_mio } from '../../../util/chaingreen';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -87,8 +87,8 @@ export const CreateNewCCWallet = () => {
       return;
     }
     dispatch(createState(true, true));
-    const amount = chia_to_mojo(amount_input.value);
-    const fee = chia_to_mojo(fee_input.value);
+    const amount = chaingreen_to_mio(amount_input.value);
+    const fee = chaingreen_to_mio(fee_input.value);
     dispatch(create_cc_action(amount, fee));
   }
 

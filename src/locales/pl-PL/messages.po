@@ -1569,7 +1569,7 @@ msgstr "Długość ograniczenia wydawania (number bloków)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (chaingreen per interval): {0}"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:94

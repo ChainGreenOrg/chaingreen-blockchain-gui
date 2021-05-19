@@ -1,17 +1,17 @@
 const units = {
-  chia: 1,
-  mojo: 1 / 1e12,
+  chaingreen: 1,
+  mio: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  chia: ['cgn', 'chaingreen', 'Chaingreen'],
-  mojo: ['mio', 'MIO'],
+  chaingreen: ['cgn', 'chaingreen', 'Chaingreen'],
+  mio: ['mio', 'MIO'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  chia: {
+  chaingreen: {
     format: '{amount} CGN',
     fractionDigits: 12,
   },

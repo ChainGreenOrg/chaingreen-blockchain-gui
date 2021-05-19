@@ -71,13 +71,13 @@ export default function FarmLatestBlockChallenges() {
       //*Removing temporary the explorer link*/
       /* <Typography variant="caption">
         <Trans>
-          *Want to explore Chia’s blocks further? Check out{' '}
+          *Want to explore Chaingreen’s blocks further? Check out{' '}
           <Link
             color="primary"
             href="https://www.chiaexplorer.com/"
             target="_blank"
           >
-            Chia Explorer
+            Chaingreen Explorer
           </Link>{' '}
           built by an open source developer.
         </Trans>

@@ -23,7 +23,7 @@ import {
 import {
   mojo_to_colouredcoin_string,
   colouredcoin_to_mojo,
-} from '../../../util/chia';
+} from '../../../util/chaingreen';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';

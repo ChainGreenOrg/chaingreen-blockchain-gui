@@ -119,7 +119,7 @@ msgid "Amount For Initial Coin"
 msgstr "Anzahl für initialen Coin"
 
 #: src/components/plot/PlotAction.tsx:30
-#: src/components/plot/queue/PlotQueueActions.tsx:31
+#: src/components/plot/queue/PlotQueueActions.tsx:32
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Bist du sicher, dass du den Plot löschen möchtest? Der Plot kann nicht wiederhergestellt werden."
 
@@ -518,15 +518,15 @@ msgstr "Verzögerung"
 
 #: src/components/plot/PlotAction.tsx:29
 #: src/components/plot/PlotAction.tsx:48
-#: src/components/plot/queue/PlotQueueActions.tsx:30
-#: src/components/plot/queue/PlotQueueActions.tsx:64
+#: src/components/plot/queue/PlotQueueActions.tsx:31
+#: src/components/plot/queue/PlotQueueActions.tsx:65
 #: src/components/selectKey/SelectKey.tsx:39
 #: src/components/selectKey/SelectKey.tsx:53
 msgid "Delete"
 msgstr "Löschen"
 
 #: src/components/plot/PlotAction.tsx:29
-#: src/components/plot/queue/PlotQueueActions.tsx:30
+#: src/components/plot/queue/PlotQueueActions.tsx:31
 msgid "Delete Plot"
 msgstr "Löschen Plot"
 
@@ -895,7 +895,7 @@ msgstr "KiB Up/Down"
 msgid "Last Attempted Proof"
 msgstr "Letzter versuchter Nachweis"
 
-#: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
+#: src/components/farm/card/FarmCardLastHeightFarmed.tsx:9
 msgid "Last Height Farmed"
 msgstr "Letzte gefarmte Höhe"
 
@@ -1019,7 +1019,7 @@ msgstr "Nein"
 msgid "No 24 word seed, since this key is imported."
 msgstr "Kein 24 Wort Seed seit dieser Schlüssel importiert wurde."
 
-#: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
+#: src/components/farm/card/FarmCardLastHeightFarmed.tsx:9
 msgid "No blocks farmed yet"
 msgstr "Bisher keine Blocks gefarmt"
 
@@ -1198,7 +1198,7 @@ msgstr "Bitte temporäres Verzeichnis definieren"
 msgid "Plot"
 msgstr "Plot"
 
-#: src/components/farm/card/FarmCardPlotCount.tsx:7
+#: src/components/farm/card/FarmCardPlotCount.tsx:8
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:18
 msgid "Plot Count"
 msgstr "Plot Anzahl"
@@ -1591,7 +1591,7 @@ msgstr "Status"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:65
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:43
-#: src/components/wallet/WalletStatusCard.tsx:11
+#: src/components/wallet/WalletStatusCard.tsx:12
 #: src/components/wallet/Wallets.tsx:95
 msgid "Status"
 msgstr "Status"
@@ -1643,8 +1643,12 @@ msgid "Syncing"
 msgstr "Synchronisieren"
 
 #: src/components/fullNode/FullNode.jsx:107
-msgid "Syncing {progress}/{tip}"
-msgstr "Synchronisieren {progress}/{tip}"
+msgid "Syncing <0/>/<1/>"
+msgstr ""
+
+#: src/components/fullNode/FullNode.jsx:107
+#~ msgid "Syncing {progress}/{tip}"
+#~ msgstr "Synchronisieren {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
 #~ msgid "TXCH Block Rewards"
@@ -1900,7 +1904,7 @@ msgstr "VDF Sub Slot Iterationen"
 msgid "View"
 msgstr "Ansicht"
 
-#: src/components/plot/queue/PlotQueueActions.tsx:53
+#: src/components/plot/queue/PlotQueueActions.tsx:54
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:33
 msgid "View Log"
 msgstr "Log anzeigen"
@@ -2068,12 +2072,12 @@ msgstr ""
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:30
+#: src/components/wallet/WalletStatusCard.tsx:31
 #: src/components/wallet/Wallets.tsx:121
 msgid "connections:"
 msgstr "Verbindungen:"
 
-#: src/components/wallet/WalletStatusCard.tsx:24
+#: src/components/wallet/WalletStatusCard.tsx:25
 #: src/components/wallet/Wallets.tsx:115
 msgid "height:"
 msgstr "Höhe:"
@@ -2082,17 +2086,17 @@ msgstr "Höhe:"
 msgid "not synced"
 msgstr "nicht synchronisiert"
 
-#: src/components/wallet/WalletStatusCard.tsx:16
+#: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
 msgstr "Status:"
 
-#: src/components/wallet/WalletStatusCard.tsx:19
+#: src/components/wallet/WalletStatusCard.tsx:20
 #: src/components/wallet/Wallets.tsx:107
 msgid "synced"
 msgstr "synchronisiert"
 
-#: src/components/wallet/WalletStatusCard.tsx:19
+#: src/components/wallet/WalletStatusCard.tsx:20
 #: src/components/wallet/Wallets.tsx:105
 msgid "syncing"
 msgstr "synchronisieren"

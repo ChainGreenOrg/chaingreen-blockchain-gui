@@ -27,7 +27,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { mojo_to_chia } from '../../util/chia';
+import { mio_to_chaingreen } from '../../util/chaingreen';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -171,8 +171,8 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_chia(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_chia(
+  const poolReward = mio_to_chaingreen(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = mio_to_chaingreen(
     calculateBaseFarmerReward(blockRecord.height),
   );
 

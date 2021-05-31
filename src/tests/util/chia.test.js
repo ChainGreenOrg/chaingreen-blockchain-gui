@@ -1,4 +1,4 @@
-const chia = require('../../util/chia');
+const chia = require('../../util/chaingreen');
 
 describe('chia', () => {
   it('converts number mojo to chia', () => {

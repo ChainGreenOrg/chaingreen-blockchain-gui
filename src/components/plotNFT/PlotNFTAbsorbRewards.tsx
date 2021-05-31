@@ -1,6 +1,6 @@
 import React, { useMemo, useState, ReactNode } from 'react';
 import { Trans } from '@lingui/macro';
-import { useHistory } from 'react-router';
+import { useHistory, useParams } from 'react-router';
 import { useDispatch } from 'react-redux';
 import {
   UnitFormat,
@@ -16,12 +16,11 @@ import {
 import { useForm } from 'react-hook-form';
 import { ChevronRight as ChevronRightIcon } from '@material-ui/icons';
 import { Grid, Typography } from '@material-ui/core';
-import { useParams } from 'react-router';
 import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { mojo_to_chia, chia_to_mojo } from '../../util/chia';
+import { mio_to_chaingreen, chaingreen_to_mio } from '../../util/chaingreen';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -64,7 +63,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeMojos = chia_to_mojo(fee);
+      const feeMojos = chaingreen_to_mio(fee);
 
       if (walletId === undefined || !address) {
         return;
@@ -137,7 +136,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={mojo_to_chia(BigInt(balance))}
+                  value={mio_to_chaingreen(BigInt(balance))}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

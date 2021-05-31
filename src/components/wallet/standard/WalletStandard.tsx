@@ -42,7 +42,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { /* mojo_to_chia_string, */ chia_to_mojo } from '../../../util/chia';
+import { /* mojo_to_chia_string, */ chaingreen_to_mio } from '../../../util/chaingreen';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -470,8 +470,8 @@ function SendCard(props: SendCardProps) {
       address = address.slice(2);
     }
 
-    const amountValue = Number.parseFloat(chia_to_mojo(amount));
-    const feeValue = Number.parseFloat(chia_to_mojo(fee));
+    const amountValue = Number.parseFloat(chaingreen_to_mio(amount));
+    const feeValue = Number.parseFloat(chaingreen_to_mio(fee));
 
     dispatch(send_transaction(wallet_id, amountValue, feeValue, address));
 

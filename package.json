@@ -74,7 +74,7 @@
     "styled-components": "^5.2.3",
     "tail": "^2.2.2",
     "use-dark-mode": "^2.3.1",
-    "ws": "^7.4.5",
+    "ws": "^7.4.6",
     "yarn": "^1.22.10"
   },
   "devDependencies": {

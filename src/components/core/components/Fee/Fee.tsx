@@ -3,9 +3,9 @@ import { Trans } from '@lingui/macro';
 import { InputAdornment, FormControl, FormHelperText } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { chia_to_mojo } from '../../../../util/chia';
+import { chaingreen_to_mio } from '../../../../util/chaingreen';
 import useCurrencyCode from '../../../../hooks/useCurrencyCode';
-import FormatLargeNumber from '../FormatLargeNumber';
+import FormatLargeNumber from '../FormatLargeNumber'; 
 
 type FeeProps = TextFieldProps & {
   name: string;
@@ -21,7 +21,7 @@ export default function Fee(props: FeeProps) {
     name,
   });
 
-  const mojo = chia_to_mojo(fee);
+  const mojo = chaingreen_to_mio(fee);
 
   return (
     <FormControl

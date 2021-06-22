@@ -27,6 +27,7 @@ import PoolAbsorbRewards from '../pool/PoolAbsorbRewards';
 import { mojo_to_chia } from '../../util/chia';
 import { useToggle } from 'react-use';
 import PoolInfo from '../pool/PoolInfo';
+import PlotNFTGraph from './PlotNFTGraph';
 
 const StyledCard = styled(Card)`
   display: flex;
@@ -66,6 +67,7 @@ export default function PlotNFTCard(props: Props) {
           launcher_id,
           pool_url,
         },
+        points_found_24h,
       },
     },
   } = props;
@@ -73,6 +75,7 @@ export default function PlotNFTCard(props: Props) {
   const history = useHistory();
   const [showPoolDetails, togglePoolDetails] = useToggle(false);
   const { isSelfPooling, isSynced, plots, balance } = usePlotNFTDetails(nft);
+  const totalPointsFound24 = points_found_24h.reduce((accumulator, item) => accumulator + item[1], 0);
 
   function handleAddPlot() {
     history.push({
@@ -124,6 +127,14 @@ export default function PlotNFTCard(props: Props) {
     key: 'points_found_since_start',
     label: <Trans>Points Found Since Start</Trans>,
     value: <FormatLargeNumber value={nft.pool_state.points_found_since_start} />,
+  }, !isSelfPooling && {
+    key: 'points_found_24',
+    label: (
+      <Typography>
+        <Trans>Points Found in Last 24 Hours</Trans>
+      </Typography>
+    ),
+    value: <FormatLargeNumber value={totalPointsFound24} />,
   }].filter(row => !!row);
 
   return (
@@ -164,8 +175,16 @@ export default function PlotNFTCard(props: Props) {
             </StyledInvisibleContainer>
           </Flex>
 
-          <Flex flexDirection="column" flexGrow={1}>
-            <CardKeyValue rows={rows} hideDivider />
+          <Flex flexDirection="column" gap={2} flexGrow={1}>
+            <Flex flexDirection="column" flexGrow={1}>
+              <CardKeyValue rows={rows} hideDivider />
+            </Flex>
+
+            {!isSelfPooling && !!totalPointsFound24 && (
+              <PlotNFTGraph 
+                points={points_found_24h}
+              />
+            )}
           </Flex>
 
           <Flex flexDirection="column" gap={1}>
@@ -177,8 +196,7 @@ export default function PlotNFTCard(props: Props) {
                 {launcher_id}
               </Typography>
             </Tooltip>
-          </Flex> 
-
+          </Flex>
 
           {isSynced && (
             <Grid container spacing={1}>

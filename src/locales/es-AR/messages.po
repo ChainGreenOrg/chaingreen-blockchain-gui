@@ -695,7 +695,7 @@ msgstr "Error"
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Error: No se puede enviar chia a la dirección de color. Ingresa una dirección de Chia."
 
-#: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:15
+#: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
 msgstr ""
 
@@ -717,7 +717,7 @@ msgstr "Inflación de la red"
 #~ msgstr "Estimated network space"
 >>>>>>> e7f363a2... New translations messages.po (Spanish, Argentina)
 
-#: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:17
+#: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:22
 msgid "Estimated sum of all the plotted disk space of all farmers in the network"
 msgstr "Suma estimada de los plots de todos los laburantes en la red"
 
@@ -2230,7 +2230,7 @@ msgstr ""
 msgid "User Pubkey"
 msgstr "Llave Pública de Usuario"
 
-#: src/components/fullNode/card/FullNodeCardVDFSubSlotIterations.tsx:15
+#: src/components/fullNode/card/FullNodeCardVDFSubSlotIterations.tsx:20
 msgid "VDF Sub Slot Iterations"
 msgstr "Iteraciones de subranura VDF"
 
@@ -2515,4 +2515,3 @@ msgstr "{currencyCode} Tarifas de Transacción del Usuario"
 #: src/components/core/components/Amount/Amount.tsx:52
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""
-

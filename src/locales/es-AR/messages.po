@@ -8,7 +8,7 @@ msgstr ""
 "Language: es_AR\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-07-07 23:36\n"
+"PO-Revision-Date: 2021-07-08 05:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish, Argentina\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -919,7 +919,7 @@ msgstr "Las claves Determinísticas HD o Jerárquicas son un tipo de esquema de 
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:132
 msgid "Harvester Plots"
-msgstr ""
+msgstr "Cosechador de Parcelas"
 
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
@@ -1248,7 +1248,7 @@ msgstr "ID de Nodo"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:87
 msgid "Node Id"
-msgstr ""
+msgstr "Identificador de Nodo"
 
 #: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
@@ -2080,7 +2080,7 @@ msgstr ""
 
 #: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
-msgstr ""
+msgstr "La URL de la pool no es válida. {normalizedUrl}"
 
 #: src/hooks/usePoolInfo.ts:39
 msgid "The pool URL needs to use protocol https. {normalizedUrl}"

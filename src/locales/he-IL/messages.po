@@ -8,7 +8,7 @@ msgstr ""
 "Language: he_IL\n"
 "Project-Id-Version: Chaingreen-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-07-13 00:15\n"
+"PO-Revision-Date: 2021-07-20 20:06\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
@@ -88,8 +88,8 @@ msgstr "הוסף חלקה לתור"
 #: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:232
-#: src/components/plotNFT/PlotNFTCard.tsx:271
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:230
+#: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
 msgstr "הוסף חלקה"
 
@@ -139,7 +139,12 @@ msgstr "סכום למטבע ראשוני"
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "האם אתה בטוח שברצונך למחוק את החלקה? חלקה שנמחקה אינה ניתנת לשיחזור."
 
-#: src/components/fullNode/FullNodeCloseConnection.tsx:23
+#: src/components/plotNFT/PlotNFTCard.tsx:125
+#: src/components/wallet/standard/WalletStandard.tsx:632
+msgid "Are you sure you want to delete unconfirmed transactions?"
+msgstr ""
+
+#: src/components/fullNode/FullNodeCloseConnection.tsx:25
 msgid "Are you sure you want to disconnect?"
 msgstr "האם אתה בטוח שברצונך להתנתק?"
 
@@ -261,6 +266,7 @@ msgstr ""
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:198
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:123
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
 #: src/components/trading/CreateOffer.jsx:139
 #: src/components/trading/TradingOverview.jsx:400
@@ -288,7 +294,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:312
+#: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
 #: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
@@ -318,7 +324,7 @@ msgstr "בחר מספר חלקות"
 msgid "Choose Plot Size"
 msgstr "בחר גודל חלקה"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:288
+#: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr ""
@@ -370,6 +376,11 @@ msgstr "אשר"
 #: src/components/fullNode/FullNodeCloseConnection.tsx:22
 msgid "Confirm Disconnect"
 msgstr "אשר התנתקות"
+
+#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/wallet/standard/WalletStandard.tsx:628
+msgid "Confirmation"
+msgstr ""
 
 #: src/components/trading/TradingOverview.jsx:201
 msgid "Confirmed at block:"
@@ -537,13 +548,13 @@ msgstr ""
 msgid "Currency code is not defined"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:116
-#: src/components/plotNFT/PlotNFTCard.tsx:142
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:139
+#: src/components/plotNFT/PlotNFTCard.tsx:181
 msgid "Current Difficulty"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:133
-#: src/components/plotNFT/PlotNFTCard.tsx:159
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:156
+#: src/components/plotNFT/PlotNFTCard.tsx:198
 msgid "Current Points Balance"
 msgstr ""
 
@@ -577,7 +588,7 @@ msgstr "השהייה"
 #: src/components/plot/PlotAction.tsx:57
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 #: src/components/plot/queue/PlotQueueActions.tsx:97
-#: src/components/plotNFT/PlotNFTCard.tsx:119
+#: src/components/plotNFT/PlotNFTCard.tsx:122
 #: src/components/selectKey/SelectKey.tsx:67
 #: src/components/selectKey/SelectKey.tsx:109
 #: src/components/wallet/standard/WalletStandard.tsx:629
@@ -589,8 +600,8 @@ msgstr "מחק"
 msgid "Delete Plot"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:230
-#: src/components/wallet/standard/WalletStandard.tsx:646
+#: src/components/plotNFT/PlotNFTCard.tsx:315
+#: src/components/wallet/standard/WalletStandard.tsx:663
 msgid "Delete Unconfirmed Transactions"
 msgstr ""
 
@@ -673,6 +684,12 @@ msgstr "גרור ושחרר את קובץ הגיבוי שלך"
 #: src/electron/main.tsx:263
 msgid "Edit"
 msgstr "עריכה"
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:259
+#: src/components/plotNFT/PlotNFTCard.tsx:301
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:76
+msgid "Edit Payout Instructions"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
@@ -980,7 +997,11 @@ msgstr ""
 msgid "Invalid state"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:310
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:90
+msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:406
 #: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr ""
@@ -1028,12 +1049,17 @@ msgstr ""
 msgid "Latest Block Challenges"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:226
-#: src/components/plotNFT/PlotNFTCard.tsx:265
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:295
+#: src/components/plotNFT/PlotNFTCard.tsx:350
 msgid "Launcher Id"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTState.tsx:55
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:100
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:114
+msgid "Learn More"
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTState.tsx:58
 msgid "Leaving Pool"
 msgstr ""
 
@@ -1203,6 +1229,7 @@ msgstr ""
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
 #: src/components/plot/PlotStatus.tsx:19
+#: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
 msgstr ""
 
@@ -1232,8 +1259,8 @@ msgstr ""
 msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:95
-#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:118
+#: src/components/plotNFT/PlotNFTCard.tsx:160
 msgid "Number of Plots"
 msgstr ""
 
@@ -1246,6 +1273,7 @@ msgid "Number of threads"
 msgstr ""
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:87
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:111
 msgid "OK"
 msgstr ""
 
@@ -1263,6 +1291,10 @@ msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:361
+msgid "Payout Address"
 msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardPeakHeight.tsx:20
@@ -1460,14 +1492,19 @@ msgstr ""
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:151
-#: src/components/plotNFT/PlotNFTCard.tsx:177
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:174
+#: src/components/plotNFT/PlotNFTCard.tsx:216
 msgid "Points Found Since Start"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:162
-#: src/components/plotNFT/PlotNFTCard.tsx:188
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:185
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Points Found in Last 24 Hours"
+msgstr ""
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:194
+#: src/components/plotNFT/PlotNFTCard.tsx:236
+msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
@@ -1483,7 +1520,15 @@ msgstr ""
 msgid "Pool Key"
 msgstr ""
 
-#: src/components/block/Block.jsx:265
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:77
+msgid "Pool Login Link"
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
+msgid "Pool Payout Instructions"
+msgstr ""
+
+#: src/components/block/Block.jsx:263
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr ""
@@ -1524,8 +1569,8 @@ msgstr ""
 msgid "Pool public key:"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:203
-#: src/components/plotNFT/PlotNFTCard.tsx:242
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:272
+#: src/components/plotNFT/PlotNFTCard.tsx:327
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:57
 msgid "Pool:"
 msgstr ""
@@ -1695,7 +1740,8 @@ msgstr ""
 msgid "Safe To Skip"
 msgstr ""
 
-#: src/components/farm/FarmManageFarmingRewards.tsx:201
+#: src/components/farm/FarmManageFarmingRewards.tsx:199
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:126
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr ""
@@ -1868,11 +1914,11 @@ msgstr ""
 msgid "State"
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:62
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:72
-#: src/components/plot/overview/PlotOverviewPlots.tsx:104
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:90
-#: src/components/plotNFT/PlotNFTCard.tsx:106
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
+#: src/components/plot/overview/PlotOverviewPlots.tsx:110
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:113
+#: src/components/plotNFT/PlotNFTCard.tsx:145
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
@@ -2026,6 +2072,10 @@ msgstr ""
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr ""
 
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr ""
+
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
 msgstr ""
@@ -2034,8 +2084,8 @@ msgstr ""
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:107
-#: src/components/plotNFT/PlotNFTCard.tsx:133
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:172
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr ""
 
@@ -2073,13 +2123,13 @@ msgstr ""
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:126
-#: src/components/plotNFT/PlotNFTCard.tsx:152
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:149
+#: src/components/plotNFT/PlotNFTCard.tsx:191
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:143
-#: src/components/plotNFT/PlotNFTCard.tsx:169
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:166
+#: src/components/plotNFT/PlotNFTCard.tsx:208
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
@@ -2087,7 +2137,7 @@ msgstr ""
 msgid "This node is fully caught up and validating the network"
 msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:239
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr ""
 
@@ -2205,7 +2255,7 @@ msgstr ""
 msgid "Unable to create plot NFT"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:111
+#: src/components/plotNFT/PlotNFTCard.tsx:150
 #: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr ""
@@ -2258,6 +2308,15 @@ msgstr ""
 
 #: src/components/trading/TradeManager.tsx:54
 msgid "View Offer"
+msgstr ""
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:256
+#: src/components/plotNFT/PlotNFTCard.tsx:298
+#~ msgid "View Payout Instructions"
+#~ msgstr "View Payout Instructions"
+
+#: src/components/plotNFT/PlotNFTCard.tsx:286
+msgid "View Pool Login Link"
 msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
@@ -2396,7 +2455,7 @@ msgstr ""
 msgid "You are not self pooling"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:328
+#: src/components/plotNFT/PlotNFTCard.tsx:424
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr ""
 

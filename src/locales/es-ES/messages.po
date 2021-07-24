@@ -8,7 +8,11 @@ msgstr ""
 "Language: es_ES\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2021-07-26 15:12\n"
+=======
+"PO-Revision-Date: 2021-07-24 18:10\n"
+>>>>>>> e5f4e6d0... New translations messages.po (Spanish)
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -2625,3 +2629,7 @@ msgstr "{currencyCode} Tarifas de Transacción del Usuario"
 #: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr "{mojo, plural, one {mojo} other {mojos}}"
+<<<<<<< HEAD
+=======
+
+>>>>>>> e5f4e6d0... New translations messages.po (Spanish)

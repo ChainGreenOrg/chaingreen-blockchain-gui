@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Volitelné)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Chcete se o Chia blocích dozvědět více? Podívej se na <0>Chia Explorer</0> vytvořený open source vývojářem."
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*Chcete se o Chia blocích dozvědět více? Podívej se na <0>Chia Explorer</0> vytvořený open source vývojářem."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,13 @@ msgstr "Tzv. harvester (sklízeč) je služba provozovaná na počítači, kde j
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "O Chia Blockchainu"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+#~ msgid "About Chia Blockchain"
+#~ msgstr "O Chia Blockchainu"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -291,6 +296,14 @@ msgstr "Zrušit a Utratit"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Pozor, smazání těchto polí je nevratné. Zkontrolujte, zda jsou paměťová zařízení správně připojena."
 
+#: src/electron/main.tsx:419
+msgid "Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Chaingreen Wiki"
+msgstr ""
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Výzva"
@@ -314,12 +327,12 @@ msgid "Chat on KeyBase"
 msgstr "Chat na KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+#~ msgid "Chia"
+#~ msgstr "Chia"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Chia Wallet"
@@ -376,7 +389,7 @@ msgstr "Barevná Mince"
 msgid "Coloured Coin Options"
 msgstr "Nastavení Barevné Mince"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:195
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -701,8 +714,12 @@ msgid "Edit Payout Instructions"
 msgstr "Upravit pokyny pro výplatu"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Zadejte 24 slov, které jste si poznamenali při zakládání vaší Chia peněženky."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+msgstr ""
+
+#: src/components/wallet/WalletImport.tsx:147
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "Zadejte 24 slov, které jste si poznamenali při zakládání vaší Chia peněženky."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -715,8 +732,12 @@ msgid "Error"
 msgstr "Chyba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Chyba: Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adresu."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "Chyba: Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adresu."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -812,7 +833,7 @@ msgid "Farming Status"
 msgstr "Stav"
 
 #: src/components/core/components/Fee/Fee.tsx:48
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:153
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
@@ -932,7 +953,7 @@ msgstr "Výška"
 msgid "Help"
 msgstr "Nápověda"
 
-#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:76
+#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:85
 msgid "Help translate"
 msgstr "Pomozte s překladem"
 
@@ -1046,8 +1067,8 @@ msgid "K-Size"
 msgstr "K - velikost"
 
 #: src/components/dashboard/DashboardSideBar.tsx:66
-msgid "Keys"
-msgstr "Klíče"
+#~ msgid "Keys"
+#~ msgstr "Klíče"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:64
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:64
@@ -1084,7 +1105,7 @@ msgstr "Opustit Pool"
 msgid "List view"
 msgstr "Zobrazení jako seznam"
 
-#: src/components/pool/Pool.tsx:21
+#: src/components/pool/Pool.tsx:20
 msgid "Loading Plot NFTs"
 msgstr "Načítání vykreslovani NFT polí"
 
@@ -1346,7 +1367,7 @@ msgstr "Nevyřízená změna"
 msgid "Pending Total Balance"
 msgstr "Nevyřízený celkový zůstatek"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:131
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:130
 #: src/hooks/useAbsorbRewards.tsx:45
 msgid "Please Confirm"
 msgstr "Prosím potvrďte"
@@ -1449,7 +1470,7 @@ msgstr "Klič Pole"
 msgid "Plot NFT"
 msgstr "NFT pole"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:103
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:102
 #: src/components/plotNFT/PlotNFTChangePool.tsx:81
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgstr "NFT pole s p2_singleton_puzzle_hash {plotNFTId} neexistuje"
@@ -1530,7 +1551,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "Body úspěšné v posledních 24 hodinách"
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr "Pool"
 
@@ -1609,12 +1630,12 @@ msgstr "Poolování"
 msgid "Port"
 msgstr "Port"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:88
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:87
 #: src/components/plotNFT/PlotNFTChangePool.tsx:74
 msgid "Preparing Plot NFT"
 msgstr "Připravuji NFT pole"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:96
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:95
 msgid "Preparing standard wallet"
 msgstr "Připravuji standardní peněženku"
 
@@ -2427,8 +2448,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Chceš se připojit k poolu? Vytvoř NFT pole"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Chcete získat více Chia? Přidejte další pole do vaší farmy."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "Chcete získat více Chia? Přidejte další pole do vaší farmy."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2455,8 +2480,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Váha je celková přidaná obtížnost všech dílčích bloků až po tento blok včetně"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Vítejte v Chia. Přihlaste se pomocí existujícího klíče, nebo si vytvořte nový klíč."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
+msgstr ""
+
+#: src/components/selectKey/SelectKey.tsx:141
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "Vítejte v Chia. Přihlaste se pomocí existujícího klíče, nebo si vytvořte nový klíč."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2533,7 +2562,7 @@ msgstr "Nejprve musíte zažádat o své odměny"
 msgid "You need {currencyCode} to join a pool."
 msgstr "Je potřeba {currencyCode}, aby se šlo připojit k poolu."
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:137
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:136
 msgid "You will recieve <0/> to {0}"
 msgstr "Dostanete <0/> do {0}"
 
@@ -2615,8 +2644,12 @@ msgid "{currencyCode} Block Rewards"
 msgstr "Blokové odměny {currencyCode}"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "Celkem nafarmařeno {currencyCode}"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "Celkem nafarmařeno {currencyCode}"
+
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:29
+msgid "{currencyCode} Total Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

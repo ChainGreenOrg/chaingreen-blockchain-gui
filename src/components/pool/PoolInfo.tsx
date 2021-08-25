@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@material-ui/core';
-import type PoolInfoType from '../../types/PoolInfo';
 import { CardKeyValue, Flex, Link } from '@chia/core';
+import type PoolInfoType from '../../types/PoolInfo';
 
 type Props = {
   poolInfo: PoolInfoType;

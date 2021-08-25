@@ -7,9 +7,8 @@ import PoolOverview from './PoolOverview';
 import PlotNFTAdd from '../plotNFT/PlotNFTAdd';
 import PlotNFTChangePool from '../plotNFT/PlotNFTChangePool';
 import PlotNFTAbsorbRewards from '../plotNFT/PlotNFTAbsorbRewards';
-import { PoolHeaderTarget } from './PoolHeader';
+import { PoolHeaderTarget, PoolHeaderSource } from './PoolHeader';
 import usePlotNFTs from '../../hooks/usePlotNFTs';
-import { PoolHeaderSource } from './PoolHeader';
 
 export default function Pool() {
   const { path } = useRouteMatch();

@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(選用)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "＊想更進一步探索 Chia 區塊鍵？看看開源開發者打造的 <0>Chia Explorer</0>"
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "＊想更進一步探索 Chia 區塊鍵？看看開源開發者打造的 <0>Chia Explorer</0>"
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,13 @@ msgstr "收割機是在實際存放耕地的機器上運作的服務。塊農和
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "關於 Chia 區塊鏈"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+#~ msgid "About Chia Blockchain"
+#~ msgstr "關於 Chia 區塊鏈"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -291,6 +296,14 @@ msgstr "取消和花費"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "警告，刪除這些農田區將會是永久刪除的。檢查儲存裝置是否正確連接。"
 
+#: src/electron/main.tsx:419
+msgid "Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Chaingreen Wiki"
+msgstr ""
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "挑戰"
@@ -314,12 +327,12 @@ msgid "Chat on KeyBase"
 msgstr "在 KeyBase 上閒聊"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+#~ msgid "Chia"
+#~ msgstr "Chia"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia 區塊鏈維基"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Chia 區塊鏈維基"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Chia Wallet"
@@ -376,7 +389,7 @@ msgstr "有色代幣"
 msgid "Coloured Coin Options"
 msgstr "有色代幣選項"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:195
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -701,8 +714,12 @@ msgid "Edit Payout Instructions"
 msgstr "編輯支付說明"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "輸入你已存的 24 字助記符號以復原您的 Chia 錢包。"
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+msgstr ""
+
+#: src/components/wallet/WalletImport.tsx:147
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "輸入你已存的 24 字助記符號以復原您的 Chia 錢包。"
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -715,8 +732,12 @@ msgid "Error"
 msgstr "錯誤"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "錯誤：不能發送 Chia 到有色地址。請輸入 Chia 地址。"
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "錯誤：不能發送 Chia 到有色地址。請輸入 Chia 地址。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -812,7 +833,7 @@ msgid "Farming Status"
 msgstr "耕種狀態"
 
 #: src/components/core/components/Fee/Fee.tsx:48
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:153
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
@@ -932,7 +953,7 @@ msgstr "高度"
 msgid "Help"
 msgstr "幫助"
 
-#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:76
+#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:85
 msgid "Help translate"
 msgstr "協助翻譯"
 
@@ -1046,8 +1067,8 @@ msgid "K-Size"
 msgstr "K-大小"
 
 #: src/components/dashboard/DashboardSideBar.tsx:66
-msgid "Keys"
-msgstr "金鑰"
+#~ msgid "Keys"
+#~ msgstr "金鑰"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:64
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:64
@@ -1084,7 +1105,7 @@ msgstr "離開農會"
 msgid "List view"
 msgstr "清單檢視"
 
-#: src/components/pool/Pool.tsx:21
+#: src/components/pool/Pool.tsx:20
 msgid "Loading Plot NFTs"
 msgstr "正在讀取農場"
 
@@ -1346,7 +1367,7 @@ msgstr "未結更動"
 msgid "Pending Total Balance"
 msgstr "未結總餘額"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:131
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:130
 #: src/hooks/useAbsorbRewards.tsx:45
 msgid "Please Confirm"
 msgstr "請確認"
@@ -1449,7 +1470,7 @@ msgstr "耕地金鑰"
 msgid "Plot NFT"
 msgstr "農場"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:103
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:102
 #: src/components/plotNFT/PlotNFTChangePool.tsx:81
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgstr "耕地 NFT 的 p2_singleton_puzzle_hash {plotNFTId} 不存在"
@@ -1530,7 +1551,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "過去24小時有效的積分"
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr "農會"
 
@@ -1609,12 +1630,12 @@ msgstr "正在為農會耕種中"
 msgid "Port"
 msgstr "通訊埠"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:88
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:87
 #: src/components/plotNFT/PlotNFTChangePool.tsx:74
 msgid "Preparing Plot NFT"
 msgstr "正在準備農場"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:96
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:95
 msgid "Preparing standard wallet"
 msgstr "正在準備標準錢包"
 
@@ -2427,8 +2448,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "想加入農會？建立一個農場"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "想要獲得更多 Chia？增加更多耕地到你的農場。"
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "想要獲得更多 Chia？增加更多耕地到你的農場。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2455,8 +2480,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "權重是所有包括這個的子區塊的總增加難度"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "歡迎來到 Chia。請用已有的金鑰登入，或建立新的金鑰。"
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
+msgstr ""
+
+#: src/components/selectKey/SelectKey.tsx:141
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "歡迎來到 Chia。請用已有的金鑰登入，或建立新的金鑰。"
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2533,7 +2562,7 @@ msgstr "您需要先申請獎勵"
 msgid "You need {currencyCode} to join a pool."
 msgstr "你需要 {currencyCode} 來加入農會。"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:137
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:136
 msgid "You will recieve <0/> to {0}"
 msgstr "你將會收到 <0/> 到 {0}"
 
@@ -2615,8 +2644,12 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 區塊獎勵"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} 已收耕 Chia"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "{currencyCode} 已收耕 Chia"
+
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:29
+msgid "{currencyCode} Total Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

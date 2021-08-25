@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Pilihan)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Ingin tahu soal blok Chia lebih jauh? Periksa laman <0>Chia Explorer</0> yang dibuat oleh software sumber terbuka."
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*Ingin tahu soal blok Chia lebih jauh? Periksa laman <0>Chia Explorer</0> yang dibuat oleh software sumber terbuka."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,13 @@ msgstr "Harvester adalah layanan yang berjalan pada komputer dimana plot disimpa
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Tentang Chia Blockchain"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+#~ msgid "About Chia Blockchain"
+#~ msgstr "Tentang Chia Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -291,6 +296,14 @@ msgstr "Batal dan Gunakan"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Perhatian, penghapusan plot bersifat permanen. Pastikan media penyimpanannya telah terkoneksi dengan baik."
 
+#: src/electron/main.tsx:419
+msgid "Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Chaingreen Wiki"
+msgstr ""
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Challenge"
@@ -314,12 +327,12 @@ msgid "Chat on KeyBase"
 msgstr "Hubung Chat di KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+#~ msgid "Chia"
+#~ msgstr "Chia"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Chia Blockchain"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Wiki Chia Blockchain"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Chia Wallet"
@@ -376,7 +389,7 @@ msgstr "Koin Berwarna"
 msgid "Coloured Coin Options"
 msgstr "Pilihan Koin Berwarna"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:195
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -701,8 +714,12 @@ msgid "Edit Payout Instructions"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Chia anda."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+msgstr ""
+
+#: src/components/wallet/WalletImport.tsx:147
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Chia anda."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -715,8 +732,12 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Error: Tidak dapat mengirim Chia ke alamat berwarna. Mohon masukkan sebuah alamat Chia."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "Error: Tidak dapat mengirim Chia ke alamat berwarna. Mohon masukkan sebuah alamat Chia."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -812,7 +833,7 @@ msgid "Farming Status"
 msgstr "Status Farming"
 
 #: src/components/core/components/Fee/Fee.tsx:48
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:153
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
@@ -932,7 +953,7 @@ msgstr "Tinggi"
 msgid "Help"
 msgstr "Bantuan"
 
-#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:76
+#: src/components/core/components/LocaleToggle/LocaleToggle.tsx:85
 msgid "Help translate"
 msgstr "Bantu menterjemahkan"
 
@@ -1046,8 +1067,8 @@ msgid "K-Size"
 msgstr "Ukuran-K"
 
 #: src/components/dashboard/DashboardSideBar.tsx:66
-msgid "Keys"
-msgstr "Keys"
+#~ msgid "Keys"
+#~ msgstr "Keys"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:64
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:64
@@ -1084,7 +1105,7 @@ msgstr "Meninggalkan Pool"
 msgid "List view"
 msgstr "Tampilan daftar"
 
-#: src/components/pool/Pool.tsx:21
+#: src/components/pool/Pool.tsx:20
 msgid "Loading Plot NFTs"
 msgstr "Memuat Plot NFT"
 
@@ -1346,7 +1367,7 @@ msgstr "Perubahan Tertunda"
 msgid "Pending Total Balance"
 msgstr "Proses Mengira Jumlah Saldo"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:131
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:130
 #: src/hooks/useAbsorbRewards.tsx:45
 msgid "Please Confirm"
 msgstr "Silahkan Konfirmasi"
@@ -1449,7 +1470,7 @@ msgstr "Key Plot"
 msgid "Plot NFT"
 msgstr "Plot NFT"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:103
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:102
 #: src/components/plotNFT/PlotNFTChangePool.tsx:81
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgstr ""
@@ -1532,7 +1553,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr ""
 
@@ -1611,12 +1632,12 @@ msgstr ""
 msgid "Port"
 msgstr "Port"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:88
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:87
 #: src/components/plotNFT/PlotNFTChangePool.tsx:74
 msgid "Preparing Plot NFT"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:96
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:95
 msgid "Preparing standard wallet"
 msgstr ""
 
@@ -2429,8 +2450,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Mau bergabung ke Pool? Buat sebuah Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Ingin mendapatkan lebih banyak Chia? Tambahkan lebih banyak plot ke farm anda."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "Ingin mendapatkan lebih banyak Chia? Tambahkan lebih banyak plot ke farm anda."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2457,8 +2482,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Beban adalah jumlah total ke rumitan semua sub blok sampai dengan blok ini"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Selamat datang di Chia. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
+msgstr ""
+
+#: src/components/selectKey/SelectKey.tsx:141
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "Selamat datang di Chia. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2535,7 +2564,7 @@ msgstr "Anda harus mengambil penghargaan terlebih dahulu"
 msgid "You need {currencyCode} to join a pool."
 msgstr "Anda membutuhkan {currencyCode} untuk bergabung ke sebuah pool."
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:137
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:136
 msgid "You will recieve <0/> to {0}"
 msgstr "Kamu akan menerima <0/> sampai {0}"
 
@@ -2617,8 +2646,12 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Blok Ganjaran"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia yang di-Farm"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "{currencyCode} Total Chia yang di-Farm"
+
+#: src/components/farm/card/FarmCardTotalChaingreenFarmed.tsx:29
+msgid "{currencyCode} Total Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

@@ -59,13 +59,13 @@ export default function DashboardSideBar() {
           icon={<PoolIcon fontSize="large" />}
           title={<Trans>Pool</Trans>}
         />
-        <SideBarItem
+        {/* <SideBarItem
           to="/"
           icon={<KeysIcon fontSize="large" />}
           onSelect={handleLogOut}
           title={<Trans>Keys</Trans>}
           exact
-        />
+        /> */}
       </StyledList>
     </StyledRoot>
   );

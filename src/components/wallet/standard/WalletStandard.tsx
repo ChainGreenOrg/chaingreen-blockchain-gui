@@ -5,7 +5,7 @@ import {
   Amount,
   Fee,
   Form,
-  TextField as ChiaTextField,
+  TextField as ChaingreenTextField,
   AlertDialog,
   CopyToClipboard,
   Flex,
@@ -463,7 +463,7 @@ function SendCard(props: SendCardProps) {
       return;
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'chaingreen_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -494,7 +494,7 @@ function SendCard(props: SendCardProps) {
       <Form methods={methods} onSubmit={handleSubmit}>
         <Grid spacing={2} container>
           <Grid xs={12} item>
-            <ChiaTextField
+            <ChaingreenTextField
               name="address"
               variant="filled"
               color="secondary"
@@ -646,7 +646,7 @@ export default function StandardWallet(props: StandardWalletProps) {
         <Flex flexGrow={1}>
           {showTitle && (
             <Typography variant="h5" gutterBottom>
-              <Trans>Chia Wallet</Trans>
+              <Trans>Chaingreen Wallet</Trans>
             </Typography>
           )}
         </Flex>

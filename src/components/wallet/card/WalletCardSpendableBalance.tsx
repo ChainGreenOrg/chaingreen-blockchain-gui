@@ -32,7 +32,7 @@ export default function WalletCardSpendableBalance(props: Props) {
       }
       value={
         <>
-          {mojo_to_chia_string(value)} {currencyCode}
+          {mio_to_chaingreen_string(value)} {currencyCode}
         </>
       }
     />

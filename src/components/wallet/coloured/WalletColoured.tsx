@@ -489,7 +489,7 @@ function SendCard(props: SendCardProps) {
     const amount = colouredcoin_to_mojo(amount_input.value);
     const fee = colouredcoin_to_mojo(fee_input.value);
 
-    if (address.includes('chia_addr') || address.includes('colour_desc')) {
+    if (address.includes('chaingreen_addr') || address.includes('colour_desc')) {
       dispatch(
         openDialog(
           <AlertDialog>

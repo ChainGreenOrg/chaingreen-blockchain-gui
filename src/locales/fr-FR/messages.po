@@ -8,7 +8,7 @@ msgstr ""
 "Language: fr_FR\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-08-29 20:55\n"
+"PO-Revision-Date: 2021-08-30 02:52\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -32,7 +32,7 @@ msgstr "+ Ajouter une nouvelle parcelle NFT"
 
 #: src/components/wallet/Wallets.tsx:122
 msgid "+ Add Wallet"
-msgstr ""
+msgstr "+ Ajouter un portefeuille"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -127,7 +127,7 @@ msgstr "Adresse"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:701
 #: src/components/wallet/standard/WalletStandard.tsx:503
 msgid "Address / Puzzle hash"
-msgstr "Adresse / Puzzle hash"
+msgstr "Hash de l'adresse / du puzzle"
 
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
@@ -199,7 +199,7 @@ msgstr "Montant de récompense de base du farmer"
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 #: src/components/farm/FarmLatestBlockChallenges.tsx:49
 msgid "Below are the current block challenges. You may or may not have a proof of space for these challenges. These blocks do not currently contain a proof of time."
-msgstr "Ci-dessous se trouvent les challenges de bloc actuels. Il se peut que vous possédiez la proof of space pour ces challenges. Ces blocs ne contiennent pas de proof of time."
+msgstr "Ci-dessous se trouvent les défis de bloc actuels. Il se peut que vous possédiez la preuve d'espace pour ces défis. Ces blocs ne contiennent pas de preuve de temps."
 
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:17
 msgid "Best estimate over last 24 hours"
@@ -306,11 +306,11 @@ msgstr ""
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
-msgstr "Challenge"
+msgstr "Défi"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:14
 msgid "Challenge Hash"
-msgstr "Challenge Hash"
+msgstr "Hash du défi"
 
 #: src/components/plotNFT/PlotNFTChangePool.tsx:111
 msgid "Change"
@@ -638,7 +638,7 @@ msgstr "Supprimer toutes les clés"
 
 #: src/components/selectKey/SelectKey.tsx:66
 msgid "Delete key {fingerprint}"
-msgstr ""
+msgstr "Supprimer la clé {fingerprint}"
 
 #: src/components/selectKey/SelectKey.tsx:113
 msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
@@ -711,7 +711,7 @@ msgstr "Éditer"
 #: src/components/plotNFT/PlotNFTCard.tsx:301
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:76
 msgid "Edit Payout Instructions"
-msgstr ""
+msgstr "Modifier les instructions de paiement"
 
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
@@ -777,11 +777,11 @@ msgstr "Ferme"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:211
 msgid "Farmer Public Key"
-msgstr ""
+msgstr "Clé publique du fermier"
 
 #: src/components/block/Block.jsx:267
 msgid "Farmer Puzzle Hash"
-msgstr "Puzzle de hachage du fermier"
+msgstr "Hash du puzzle du fermier"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:163
 msgid "Farmer Reward Address"
@@ -789,7 +789,7 @@ msgstr "Adresse pour les récompenses du fermier"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:137
 msgid "Farmer Reward Address is not properly formatted."
-msgstr "L'adresse de récompense du farmer n'est pas correctement formatée."
+msgstr "L'adresse de récompense du fermier n'est pas correctement formatée."
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:133
 #~ msgid "Farmer Reward Address is not properly formatted. Using 'paste' is recommended."
@@ -797,7 +797,7 @@ msgstr "L'adresse de récompense du farmer n'est pas correctement formatée."
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:131
 msgid "Farmer Reward Address must not be empty."
-msgstr "L'adresse de récompense du farmer ne doit pas être vide."
+msgstr "L'adresse de récompense du fermier ne doit pas être vide."
 
 #: src/components/farm/card/FarmCardStatus.tsx:38
 #: src/components/plot/PlotStatus.tsx:28
@@ -933,7 +933,7 @@ msgstr "HD ou clés à déterministes hiérachiques sont un type de schéma clé
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:132
 msgid "Harvester Plots"
-msgstr ""
+msgstr "Parcelles du moissonneur"
 
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
@@ -1107,7 +1107,7 @@ msgstr "Vue en liste"
 
 #: src/components/pool/Pool.tsx:20
 msgid "Loading Plot NFTs"
-msgstr ""
+msgstr "Chargement des NFT de parcelle"
 
 #: src/components/wallet/Wallets.tsx:111
 msgid "Loading list of wallets"
@@ -1253,7 +1253,7 @@ msgstr "ID du nœud"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:87
 msgid "Node Id"
-msgstr ""
+msgstr "ID du nœud"
 
 #: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
@@ -1294,8 +1294,8 @@ msgid "Not found Plots"
 msgstr "Aucune parcelle trouvée"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25CGN reward for pooling plots."
-msgstr ""
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgstr "Notez que ceci ne change pas vos adresses de paiement de pool. Seules vos anciennes parcelles sont affectées, et la récompense de 0.25XCH pour les parcelles de pool."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1333,7 +1333,7 @@ msgstr "Sortant"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:361
 msgid "Payout Address"
-msgstr ""
+msgstr "Adresse de paiement"
 
 #: src/components/fullNode/card/FullNodeCardPeakHeight.tsx:20
 msgid "Peak Height"
@@ -1468,12 +1468,12 @@ msgstr "Clé du plot"
 
 #: src/components/pool/PoolOverview.tsx:40
 msgid "Plot NFT"
-msgstr ""
+msgstr "NFT de parcelle"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:102
 #: src/components/plotNFT/PlotNFTChangePool.tsx:81
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
-msgstr ""
+msgstr "Le NFT de parcelle contenant le p2_singleton_puzzle_hash {plotNFTId} n'existe pas"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:43
 #~ msgid "Plot Name"
@@ -1505,7 +1505,7 @@ msgstr "Le plot est un doublon de {0}"
 
 #: src/components/plotNFT/PlotNFTState.tsx:46
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
-msgstr ""
+msgstr "Le NFT de parcelle est en cours de transition vers (target state). Cela peut prendre un certain temps. Veuillez ne pas fermer l'application avant la finalisation."
 
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Plots"
@@ -1548,7 +1548,7 @@ msgstr "Points trouvés au cours des dernières 24 heures"
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:194
 #: src/components/plotNFT/PlotNFTCard.tsx:236
 msgid "Points Successful in Last 24 Hours"
-msgstr ""
+msgstr "Points acceptés au cours des dernières 24 heures"
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:24
@@ -1565,11 +1565,11 @@ msgstr "Clé du pool"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:77
 msgid "Pool Login Link"
-msgstr ""
+msgstr "Lien de connexion au pool"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
 msgid "Pool Payout Instructions"
-msgstr ""
+msgstr "Modifier les instructions de paiement du pool"
 
 #: src/components/block/Block.jsx:263
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
@@ -1578,7 +1578,7 @@ msgstr "Clé publique du pool"
 
 #: src/components/block/Block.jsx:283
 msgid "Pool Puzzle Hash"
-msgstr "Hash puzzle du pool"
+msgstr "Hash du puzzle du pool"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:173
 msgid "Pool Reward Address"
@@ -1586,7 +1586,7 @@ msgstr "Adresse de récompenses du pool"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:149
 msgid "Pool Reward Address is not properly formatted."
-msgstr ""
+msgstr "L'adresse de récompense du pool n'est pas correctement formatée."
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:148
 #~ msgid "Pool Reward Address is not properly formatted. Using 'paste' is recommended."
@@ -1594,7 +1594,7 @@ msgstr ""
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:144
 msgid "Pool Reward Address must not be empty."
-msgstr ""
+msgstr "L'adresse de récompense du pool ne doit pas être vide."
 
 #: src/components/block/Block.jsx:313
 msgid "Pool Reward Amount"
@@ -1602,11 +1602,11 @@ msgstr "Montant des récompenses du pool"
 
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:38
 msgid "Pool does not provide relative_lock_height."
-msgstr ""
+msgstr "Le pool ne fournit pas relative_lock_height."
 
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:35
 msgid "Pool does not provide target_puzzle_hash."
-msgstr ""
+msgstr "Le pool ne fournit pas target_puzzle_hash."
 
 #: src/middleware/middleware_api.jsx:283
 msgid "Pool public key:"
@@ -1621,7 +1621,7 @@ msgstr "Pool :"
 #: src/components/plotNFT/PlotNFTExternalState.tsx:24
 #: src/components/plotNFT/PlotNFTState.tsx:59
 msgid "Pooling"
-msgstr ""
+msgstr "Pooling"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
@@ -1633,7 +1633,7 @@ msgstr "Port"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:87
 #: src/components/plotNFT/PlotNFTChangePool.tsx:74
 msgid "Preparing Plot NFT"
-msgstr ""
+msgstr "Préparation du NFT de parcelle"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:95
 msgid "Preparing standard wallet"
@@ -1669,7 +1669,7 @@ msgstr "Clé privée:"
 
 #: src/components/block/Block.jsx:251
 msgid "Proof of Space Size"
-msgstr "Taille de la Proof of Space"
+msgstr "Taille de la preuve d'espace"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
@@ -1748,7 +1748,7 @@ msgstr "Actualiser les plots"
 
 #: src/components/pool/PoolInfo.tsx:32
 msgid "Relative Lock Height"
-msgstr ""
+msgstr "Hauteur relative de verrouillage"
 
 #: src/electron/main.tsx:374
 msgid "Release Notes"
@@ -1862,11 +1862,11 @@ msgstr "Sélectionné"
 #: src/components/plotNFT/PlotNFTExternalState.tsx:23
 #: src/components/plotNFT/PlotNFTState.tsx:57
 msgid "Self Pooling"
-msgstr ""
+msgstr "Pool solitaire"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn CGN rewards."
-msgstr ""
+msgid "Self pool. When you win a block you will earn XCH rewards."
+msgstr "Pool solitaire. Vous gagnerez des récompenses XCH lorsque vous gagnez un bloc."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -1918,12 +1918,12 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Ignorer l'ajout d'un répertoire final au moissonneur pour la culture"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your CGN farming rewards by joining a pool."
-msgstr ""
+msgid "Smooth out your XCH farming rewards by joining a pool."
+msgstr "Aplanissez le rythme de vos récoltes XCH en rejoignant un pool."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
-msgstr ""
+msgstr "Un problème est survenu"
 
 #: src/electron/main.tsx:470
 msgid "Speech"
@@ -2052,7 +2052,7 @@ msgstr "Synchronisation <0/>/<1/>"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
-msgstr "Puzzle de hachage de la cible"
+msgstr "Hash du puzzle cible"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
@@ -2089,11 +2089,11 @@ msgstr "L'URL du pool \"{normalizedUrl}\" ne fonctionne pas. Est-ce un pool ? Er
 
 #: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
-msgstr ""
+msgstr "L'URL du pool n'est pas valide. {normalizedUrl}"
 
 #: src/hooks/usePoolInfo.ts:39
 msgid "The pool URL needs to use protocol https. {normalizedUrl}"
-msgstr ""
+msgstr "L'URL du pool doit utiliser le protocole https. {normalizedUrl}"
 
 #: src/hooks/usePoolInfo.ts:44
 #~ msgid "The pool URL speciefied is not valid. {normalizedUrl}"
@@ -2105,7 +2105,7 @@ msgstr ""
 
 #: src/components/plotNFT/PlotNFTState.tsx:29
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
-msgstr ""
+msgstr "Le changement de pool a été annulé, veuillez réessayer en changeant de pool ou en pool solitaire"
 
 #: src/components/block/Block.jsx:302
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
@@ -2113,19 +2113,19 @@ msgstr "La graine utilisée pour créer le plot. Cela dépend du pk du pool et d
 
 #: src/components/block/Block.jsx:228
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
-msgstr "Le nombre total de VDF (fonction de délai vérifiable) ou la preuve d'itérations de temps sur toute la chaîne jusqu'à ce sous-bloc."
+msgstr "Le nombre total de VDF (fonction de délai vérifiable) ou le nombre d'itérations de preuves de temps sur toute la chaîne jusqu'à ce sous-bloc."
 
 #: src/components/block/Block.jsx:244
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
-msgstr "Le nombre total de VDF (fonction de délai vérifiable) ou la preuve d'itérations de temps sur ce bloc."
+msgstr "Le nombre total de VDF (fonction de délai vérifiable) ou le nombre d'itérations de preuves de temps sur ce bloc."
 
 #: src/components/block/Block.jsx:324
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Le total des frais de transaction dans ce bloc. Récompenses au fermier."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr ""
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Ce sont les instructions du paiement du fermier. Par défaut, il s'agira d'une adresse XCH, mais toute chaîne de caractères d'une taille inférieure à 1024 caractères peut être saisie, de telle sorte qu'une autre blockchain ou qu'un autre identifiant de système de paiement puissent être représentés."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2138,7 +2138,7 @@ msgstr "Cela vous permet d’ajouter un répertoire contenant des plots. Si vous
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:130
 #: src/components/plotNFT/PlotNFTCard.tsx:172
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
-msgstr ""
+msgstr "Cette difficulté est artificiellement plus faible que celle du réseau réel et est utilisée lors de la culture, afin de trouver plus de preuves et de les envoyer au pool. Plus vous avez de parcelles, plus la difficulté sera élevée. Cependant, la difficulté n'affecte pas les récompenses."
 
 #: src/components/trading/CreateOffer.jsx:123
 #: src/hooks/useSelectDirectory.tsx:31
@@ -2164,7 +2164,7 @@ msgstr "C'est l'heure du dernier sous-bloc de pic."
 
 #: src/components/block/Block.jsx:194
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
-msgstr "C'est le moment où le bloc a été créé par le fermier, ce qui se produit avant qu'il ne soit finalisé avec une preuve de temps"
+msgstr "C'est le moment où le bloc a été créé par le fermier, ce qui se produit avant qu'il ne soit finalisé par une preuve de temps"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
@@ -2177,12 +2177,12 @@ msgstr "Ceci est le solde total + solde en attente : c'est ce que votre solde se
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:149
 #: src/components/plotNFT/PlotNFTCard.tsx:191
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
-msgstr ""
+msgstr "Ceci représente le total des points accumulés par le NFT de parcelle avec ce pool depuis le dernier paiement. Le pool réinitialisera les points après paiement."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:166
 #: src/components/plotNFT/PlotNFTCard.tsx:208
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
-msgstr ""
+msgstr "Ceci représente le total des points trouvés par votre fermier avec ce NFT de parcelle. Chaque parcelle k32 trouvera environ 10 points par jour, de telle sorte que si vous avez 10Tio, vous devriez recevoir environ 1000 points par jour, soit 41 points par heure."
 
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:46
 msgid "This node is fully caught up and validating the network"
@@ -2190,11 +2190,11 @@ msgstr "Ce nœud est complètement à jour et valide le réseau"
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
-msgstr ""
+msgstr "Ce NFT de parcelle est affecté à une autre clé. Vous pouvez toujours ajouter des parcelles à ce NFT de parcelle, mais vous ne pouvez pas effectuer de changements."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:52
 msgid "This plot NFT is not connected to pool"
-msgstr ""
+msgstr "Ce NFT de parcelle n'est pas connecté au pool"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:39
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
@@ -2308,7 +2308,7 @@ msgstr "Type"
 
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
-msgstr ""
+msgstr "Impossible de créer le NFT de parcelle"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:150
 #: src/components/pool/PoolOverview.tsx:66
@@ -2372,7 +2372,7 @@ msgstr "Voir les offres"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:286
 msgid "View Pool Login Link"
-msgstr ""
+msgstr "Afficher le lien de connexion au pool"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
 msgid "View pending balances"
@@ -2445,7 +2445,7 @@ msgstr "Wallets"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:57
 msgid "Want to Join a Pool? Create a Plot NFT"
-msgstr ""
+msgstr "Vous voulez rejoindre un pool ? Créez un NFT de parcelle"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chaingreen? Add more plots to your farm."
@@ -2461,15 +2461,15 @@ msgstr "Voulez-vous un délai d'attente avant que le prochain plot démarre ?"
 
 #: src/components/selectKey/SelectKey.tsx:86
 msgid "Warning: This key is used for a wallet that may have a non-zero balance. By deleting this key you may lose access to this wallet"
-msgstr ""
+msgstr "Attention : Cette clé est utilisée pour un portefeuille qui pourrait avoir un solde non nul. En supprimant cette clé, vous risquez de perdre accès à ce portefeuille"
 
 #: src/components/selectKey/SelectKey.tsx:72
 msgid "Warning: This key is used for your farming rewards address. By deleting this key you may lose access to any future farming rewards"
-msgstr ""
+msgstr "Attention : Cette clé est utilisée pour votre adresse de récompenses de culture. En supprimant cette clé, vous risquez de perdre accès à toute future récompense de culture"
 
 #: src/components/selectKey/SelectKey.tsx:79
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
-msgstr ""
+msgstr "Attention : Cette clé est utilisée pour votre adresse de récompenses de pool. En supprimant cette clé, vous risquez de perdre accès à toute future récompense de pool"
 
 #: src/components/block/Block.jsx:205
 msgid "Weight"
@@ -2512,15 +2512,15 @@ msgstr "Oui"
 #: src/hooks/useAbsorbRewards.tsx:29
 #: src/hooks/useJoinPool.tsx:35
 msgid "You are in pending state. Please wait for confirmation"
-msgstr ""
+msgstr "Vous êtes en état d'attente. Veuillez attendre la confirmation"
 
 #: src/hooks/useAbsorbRewards.tsx:37
 msgid "You are not self pooling"
-msgstr ""
+msgstr "Vous n'êtes pas en pooling solitaire"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:424
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
-msgstr ""
+msgstr "Vous pouvez toujours ajouter des parcelles à ce NFT de parcelle, mais vous ne pouvez pas effectuer de changements tant que la synchronisation n'est pas achevée."
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:56
 #~ msgid "You do not need to be synched or connected to Plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
@@ -2532,7 +2532,7 @@ msgstr "Vous n'avez pas besoin d'être synchronisé ou connecté au plot. Les fi
 
 #: src/components/core/components/FormBackButton/FormBackButton.tsx:29
 msgid "You have made changes. Do you want to discard them?"
-msgstr ""
+msgstr "Vous avez apporté des modifications. Voulez-vous les ignorer ?"
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation."
@@ -2552,7 +2552,7 @@ msgstr "Vous possédez {0}% de la taille sur le réseau, donc le temps prévu po
 
 #: src/components/pool/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
-msgstr ""
+msgstr "Vous devez d'abord réclamer vos récompenses"
 
 #: src/components/app/AppTimeBomb.tsx:28
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
@@ -2560,7 +2560,7 @@ msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
-msgstr ""
+msgstr "Vous avez besoin de {currencyCode} pour rejoindre un pool."
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:136
 msgid "You will recieve <0/> to {0}"
@@ -2610,7 +2610,7 @@ msgstr "non synchronisé"
 
 #: src/components/plot/add/PlotAdd.tsx:105
 msgid "p2_singleton_puzzle_hash is not defined"
-msgstr ""
+msgstr "p2_singleton_puzzle_hash n'est pas défini"
 
 #: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:57
@@ -2657,5 +2657,5 @@ msgstr "{currencyCode} Frais de transaction utilisateur"
 
 #: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
-msgstr ""
+msgstr "{mojo, plural, one {mojo} other {mojos}}"
 

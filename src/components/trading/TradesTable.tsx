@@ -46,7 +46,7 @@ export default function TradesTable(props: Props) {
         return {
           side: amount < 0 ? <Trans>Sell</Trans> : <Trans>Buy</Trans>,
           name: <Amount>{name}</Amount>,
-          amount: <Amount>{mojo_to_chia_string(humanAmount)}</Amount>,
+          amount: <Amount>{mio_to_chaingreen_string(humanAmount)}</Amount>,
         };
       }),
     [rows],

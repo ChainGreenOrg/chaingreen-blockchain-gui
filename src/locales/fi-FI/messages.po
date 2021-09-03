@@ -847,7 +847,7 @@ msgid "Fee"
 msgstr "Veloitus"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TCGN)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1051,16 +1051,16 @@ msgid "Join a Pool"
 msgstr "Liity Pooliin"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Liity pooliin ja saat tasaisen XCH-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla."
+msgid "Join a pool and get consistent CGN farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "Liity pooliin ja saat tasaisen CGN-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Liity pooliin ja saat tasaisen XCH-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla. Aseta plotit osoittamaan Plot-NFT:hen. Voit vaihtaa helposti poolia ilman uudelleenplottausta."
+msgid "Join a pool and get consistent CGN farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Liity pooliin ja saat tasaisen CGN-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla. Aseta plotit osoittamaan Plot-NFT:hen. Voit vaihtaa helposti poolia ilman uudelleenplottausta."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "Liity pooliin ja saat tasaisen XCH-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla. Luo Plot-NFT ja aseta uudet plotit osoittamaan Plot-NFT:hen."
+msgid "Join a pool and get more consistent CGN farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "Liity pooliin ja saat tasaisen CGN-tuoton. Keskimääräinen tuotto on sama, mutta hajonta on pienempi kuin itse poolaamalla. Luo Plot-NFT ja aseta uudet plotit osoittamaan Plot-NFT:hen."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
@@ -1294,8 +1294,8 @@ msgid "Not found Plots"
 msgstr "Ei löydettyjä Plot-tiedostoja"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "Huomaa, että tämä ei muuta poolauksen maksuosoitteitasi. Tämä vaikuttaa vain vanhan formaatin plotteihin, ja 0,25 XCH palkintoon poolausploteissa."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25CGN reward for pooling plots."
+msgstr "Huomaa, että tämä ei muuta poolauksen maksuosoitteitasi. Tämä vaikuttaa vain vanhan formaatin plotteihin, ja 0,25 CGN palkintoon poolausploteissa."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1865,8 +1865,8 @@ msgid "Self Pooling"
 msgstr "Itsepoolaus"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
-msgstr "Itsepoolaus. Kun voitat lohkon, ansaitset XCH-kolikoita."
+msgid "Self pool. When you win a block you will earn CGN rewards."
+msgstr "Itsepoolaus. Kun voitat lohkon, ansaitset CGN-kolikoita."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -1918,8 +1918,8 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Ei lisää lopullista hakemistoa harvesteriin farmaroitavaksi"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "Tasaa XCH-farmauspalkkioita liittymällä pooliin."
+msgid "Smooth out your CGN farming rewards by joining a pool."
+msgstr "Tasaa CGN-farmauspalkkioita liittymällä pooliin."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
@@ -2031,23 +2031,23 @@ msgstr ""
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TCGN Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TCGN Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TCGN Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TCGN User Fees"
+#~ msgstr "TCGN User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TCGN User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2124,8 +2124,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Kokonaistransaktioveloitukset tässä lohkossa. Suoritetaan farmarille."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Nämä ovat ohjeet siitä, miten farmari haluaa saada maksun. Oletuksena tämä on XCH-osoite, mutta se voidaan asettaa mihin tahansa merkkijonoon, jonka koko on alle 1024 merkkiä, joten se voi edustaa toista lohkoketjua tai maksujärjestelmätunnusta."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Nämä ovat ohjeet siitä, miten farmari haluaa saada maksun. Oletuksena tämä on CGN-osoite, mutta se voidaan asettaa mihin tahansa merkkijonoon, jonka koko on alle 1024 merkkiä, joten se voi edustaa toista lohkoketjua tai maksujärjestelmätunnusta."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."

@@ -70,7 +70,6 @@ export default function FarmLatestBlockChallenges() {
             color="primary"
             href="https://www.chiaexplorer.com/"
             target="_blank"
-            to="/"
           >
             Chaingreen Explorer
           </Link>{' '}

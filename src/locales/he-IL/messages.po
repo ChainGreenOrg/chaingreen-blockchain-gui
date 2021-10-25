@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* רוצה לחקור את הבלוקים של צ'יה עוד? בדוק את </0>Chia Explorer<0> שנבנה על ידי מפתח קוד פתוח."
+msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
+msgstr "* רוצה לחקור את הבלוקים של צ'יה עוד? בדוק את </0>Chaingreen Explorer<0> שנבנה על ידי מפתח קוד פתוח."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,7 +48,7 @@ msgstr "קציר הוא שירות המופעל במכונה בה מאוחסנ/�
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
+msgid "About Chaingreen Blockchain"
 msgstr "אודות צ'יה"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -226,7 +226,7 @@ msgid "Block VDF Iterations"
 msgstr "בלוק VDF איטרציות"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Chaingreen blockchain"
 msgstr "בלוק בגובה {0} בבלוקצ'יין צ'יה"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -320,15 +320,15 @@ msgid "Chat on KeyBase"
 msgstr "צ'אט ב-KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
+msgid "Chaingreen"
 msgstr "צ'יה"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
+msgid "Chaingreen Blockchain Wiki"
 msgstr "ארנק צ'יה"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Chia Wallet"
+msgid "Chaingreen Wallet"
 msgstr "ארנק צ'יה"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
@@ -736,8 +736,8 @@ msgid "Edit Payout Instructions"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "הקש את 24 מילות ה-Mnemonic Seed ששמרת על מנת לשחזר את ארנק ה-Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chaingreen wallet."
+msgstr "הקש את 24 מילות ה-Mnemonic Seed ששמרת על מנת לשחזר את ארנק ה-Chaingreen."
 
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
@@ -750,8 +750,8 @@ msgid "Error"
 msgstr "שגיאה"
 
 #: src/components/wallet/standard/WalletStandard.tsx:453
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "שגיאה: לא ניתן לשלוח Chia לכתובת הצבעונית הזו. אנא הקש כתובת Chia."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "שגיאה: לא ניתן לשלוח Chaingreen לכתובת הצבעונית הזו. אנא הקש כתובת Chaingreen."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1565,8 +1565,8 @@ msgid "Plots Passed Filter"
 msgstr "פלוטים שעברו את המסנן"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:28
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "לפלוטים מוקצה שטח על הדיסק הקשיח אשר משמש לקצירה ולהרוויח Chia <0>למד עוד</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chaingreen. <0>Learn more</0>"
+msgstr "לפלוטים מוקצה שטח על הדיסק הקשיח אשר משמש לקצירה ולהרוויח Chaingreen <0>למד עוד</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -2027,7 +2027,7 @@ msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (chaingreen per interval): {0}"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
@@ -2222,7 +2222,7 @@ msgid "This feature is available only from the GUI."
 msgstr ""
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Chaingreen that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chaingreen that you have just spent but is not yet in the blockchain."
 msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
@@ -2242,7 +2242,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr ""
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chaingreen in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2284,7 +2284,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr ""
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
@@ -2523,7 +2523,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:133
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chaingreen? Add more plots to your farm."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
@@ -2551,7 +2551,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:35

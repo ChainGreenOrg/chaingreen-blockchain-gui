@@ -448,7 +448,7 @@ function SendCard(props: SendCardProps) {
       openDialog(
         <AlertDialog>
           <Trans>
-            Error: Cannot send chia to coloured address. Please enter a chia
+            Error: Cannot send chaingreen to coloured address. Please enter a chia
             address.
           </Trans>
         </AlertDialog>,

@@ -174,7 +174,7 @@ export default function AppKeyringMigrator(): JSX.Element {
                 label={t`Save passphrase`}
                 style={{ marginRight: '8px' }}
               />
-              <Tooltip title={t`Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase.`}>
+              <Tooltip title={t`Your passphrase can be stored in your system's secure credential store. Chaingreen will be able to access your keys without prompting for your passphrase.`}>
                 <HelpIcon style={{ color: '#c8c8c8', fontSize: 12 }} />
               </Tooltip>
             </Box>

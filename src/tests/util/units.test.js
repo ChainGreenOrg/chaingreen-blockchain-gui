@@ -22,7 +22,7 @@ describe('units', () => {
 
       expect(result).toBe(1);
     });
-    it('gets unit of chia using alias', () => {
+    it('gets unit of chaingreen using alias', () => {
       const result = units.getUnit('ch');
 
       expect(result).toBe(1);

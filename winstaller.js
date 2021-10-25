@@ -18,12 +18,12 @@ function getInstallerConfig () {
     authors: 'Chaingreen Network',
     version: process.env.CHAINGREEN_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/ChainGreenOrg/chaingreen-blockchain-gui/main/src/assets/img/chia.ico',
+    iconUrl: 'https://raw.githubusercontent.com/ChainGreenOrg/chaingreen-blockchain-gui/main/src/assets/img/chaingreen.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
     exe: 'Chaingreen.exe',
     setupExe: 'ChaingreenSetup-' + process.env.CHAINGREEN_INSTALLER_VERSION + '.exe',
-    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'chia.ico')
+    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'chaingreen.ico')
   })
 }

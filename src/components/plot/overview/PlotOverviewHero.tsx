@@ -34,7 +34,7 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Chia. '
+                'Plots are allocated space on your hard drive used to farm and earn Chaingreen. '
               }
               <Link
                 target="_blank"

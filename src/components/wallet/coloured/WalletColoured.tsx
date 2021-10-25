@@ -346,15 +346,15 @@ function BalanceCard(props: BalanceCardProps) {
   const balancebox_unit = ` ${cc_unit}`;
   const balancebox_hline =
     "<tr><td colspan='2' style='text-align:center'><hr width='50%'></td></tr>";
-  const balance_ptotal_chia = mojo_to_colouredcoin_string(balance_ptotal);
-  const balance_pending_chia = mojo_to_colouredcoin_string(balance_pending);
-  const balance_change_chia = mojo_to_colouredcoin_string(balance_change);
+  const balance_ptotal_chaingreen = mojo_to_colouredcoin_string(balance_ptotal);
+  const balance_pending_chaingreen = mojo_to_colouredcoin_string(balance_pending);
+  const balance_change_chaingreen = mojo_to_colouredcoin_string(balance_change);
   const acc_content =
     balancebox_1 +
     balancebox_2 +
     balancebox_ptotal +
     balancebox_3 +
-    balance_ptotal_chia +
+    balance_ptotal_chaingreen +
     balancebox_unit +
     balancebox_hline +
     balancebox_4 +
@@ -362,14 +362,14 @@ function BalanceCard(props: BalanceCardProps) {
     balancebox_2 +
     balancebox_pending +
     balancebox_3 +
-    balance_pending_chia +
+    balance_pending_chaingreen +
     balancebox_unit +
     balancebox_4 +
     balancebox_row +
     balancebox_2 +
     balancebox_change +
     balancebox_3 +
-    balance_change_chia +
+    balance_change_chaingreen +
     balancebox_unit +
     balancebox_5;
 

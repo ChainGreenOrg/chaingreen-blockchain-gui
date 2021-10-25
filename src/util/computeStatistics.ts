@@ -4,7 +4,7 @@ import type Wallet from '../types/Wallet';
 
 // deprecated
 export default function computeStatistics(wallets: Wallet[]): {
-  totalChiaFarmed: Big;
+  totalCahingreenFarmed: Big;
   biggestHeight: number;
   biggestRewardHeight: number;
   poolCoins: Big;

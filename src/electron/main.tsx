@@ -11,8 +11,8 @@ import '../config/env';
 import handleSquirrelEvent from './handleSquirrelEvent';
 import config from '../config/config';
 import dev_config from '../dev_config';
-import chiaEnvironment from '../util/chaingreenEnvironment';
-import chiaConfig from '../util/config';
+import chaingreenEnvironment from '../util/chaingreenEnvironment';
+import chaingreenConfig from '../util/config';
 import { i18n } from '../config/locales';
 import About from '../components/about/About';
 import packageJson from '../../package.json';
@@ -93,7 +93,7 @@ if (!handleSquirrelEvent()) {
 
   const ensureCorrectEnvironment = () => {
     // check that the app is either packaged or running in the python venv
-    if (!chiaEnvironment.guessPackaged() && !('VIRTUAL_ENV' in process.env)) {
+    if (!chaingreenEnvironment.guessPackaged() && !('VIRTUAL_ENV' in process.env)) {
       console.log('App must be installed or in venv');
       app.quit();
       return false;
@@ -107,7 +107,7 @@ if (!handleSquirrelEvent()) {
   // if any of these checks return false, don't do any other initialization since the app is quitting
   if (ensureSingleInstance() && ensureCorrectEnvironment()) {
     // this needs to happen early in startup so all processes share the same global config
-    chiaConfig.loadConfig('mainnet');
+    chaingreenConfig.loadConfig('mainnet');
     global.sharedObj = { local_test };
 
     const exitPyProc = (e) => {};
@@ -168,7 +168,7 @@ if (!handleSquirrelEvent()) {
       });
 
       // don't show remote daeomn detials in the title bar
-      if (!chiaConfig.manageDaemonLifetime()) {
+      if (!chaingreenConfig.manageDaemonLifetime()) {
         mainWindow.webContents.on('did-finish-load', () => {
           mainWindow.setTitle(`${app.getName()} [${global.daemon_rpc_ws}]`);
         });
@@ -179,7 +179,7 @@ if (!handleSquirrelEvent()) {
       // }
       mainWindow.on('close', (e) => {
         // if the daemon isn't local we aren't going to try to start/stop it
-        if (decidedToClose || !chiaConfig.manageDaemonLifetime()) {
+        if (decidedToClose || !chaingreenConfig.manageDaemonLifetime()) {
           return;
         }
         e.preventDefault();
@@ -231,8 +231,8 @@ if (!handleSquirrelEvent()) {
       createWindow();
       app.applicationMenu = createMenu();
       // if the daemon isn't local we aren't going to try to start/stop it
-      if (chiaConfig.manageDaemonLifetime()) {
-        chiaEnvironment.startChaingreenDaemon();
+      if (chaingreenConfig.manageDaemonLifetime()) {
+        chaingreenEnvironment.startChaingreenDaemon();
       }
     };
 

@@ -48,8 +48,13 @@ msgstr "收割機是在實際存放耕地的機器上運作的服務。塊農和
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chaingreen Blockchain"
-msgstr "關於 Chaingreen 區塊鏈"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:431
+#: src/electron/main.tsx:518
+#~ msgid "About Chaingreen Blockchain"
+#~ msgstr "關於 Chaingreen 區塊鏈"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -311,11 +316,19 @@ msgstr "取消和花費"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "警告，刪除這些農田區將會是永久刪除的。檢查儲存裝置是否正確連接。"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:428
 msgid "Chaingreen"
-msgstr ""
+msgstr "Chaingreen"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:367
+#~ msgid "Chaingreen Blockchain Wiki"
+#~ msgstr "Chaingreen 區塊鏈維基"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Chaingreen Wallet"
+msgstr "Chaingreen 錢包"
+
+#: src/electron/main.tsx:367
 msgid "Chaingreen Wiki"
 msgstr ""
 
@@ -345,18 +358,6 @@ msgstr "變更農會"
 #: src/electron/main.tsx:410
 msgid "Chat on KeyBase"
 msgstr "在 KeyBase 上閒聊"
-
-#: src/electron/main.tsx:428
-msgid "Chaingreen"
-msgstr "Chaingreen"
-
-#: src/electron/main.tsx:367
-msgid "Chaingreen Blockchain Wiki"
-msgstr "Chaingreen 區塊鏈維基"
-
-#: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chaingreen Wallet"
-msgstr "Chaingreen 錢包"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -413,7 +414,7 @@ msgstr "有色代幣"
 msgid "Coloured Coin Options"
 msgstr "有色代幣選項"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:194
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -771,6 +772,7 @@ msgid "Drag and drop attestation packet(s)"
 msgstr "拖放證明封包"
 
 #: src/components/trading/ViewOffer.jsx:39
+#: src/components/wallet/create/recoverDIDWallet.js:294
 msgid "Drag and drop offer file"
 msgstr "拖放提案檔案"
 
@@ -823,8 +825,12 @@ msgid "Error"
 msgstr "錯誤"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "錯誤：不能發送 Chaingreen 到有色地址。請輸入 Chaingreen 地址。"
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+#~ msgstr "錯誤：不能發送 Chaingreen 到有色地址。請輸入 Chaingreen 地址。"
+
+#: src/components/wallet/standard/WalletStandard.tsx:450
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1800,7 +1806,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "過去24小時有效的積分"
 
 #: src/components/dashboard/DashboardSideBar.tsx:63
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr "農會"
 
@@ -2460,8 +2466,12 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "在這個區塊的總交易費用。是獎勵給塊農的。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 CGN  地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 CGN  地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
+
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2797,11 +2807,7 @@ msgstr "想加入農會？建立一個農場"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chaingreen? Add more plots to your farm."
-msgstr ""
-
-#: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chaingreen? Add more plots to your farm."
-#~ msgstr "想要獲得更多 Chaingreen？增加更多耕地到你的農場。"
+msgstr "想要獲得更多 Chaingreen？增加更多耕地到你的農場。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"

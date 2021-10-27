@@ -264,38 +264,38 @@ export default function Block() {
       name: <Trans>Pool Public Key</Trans>,
       value: block.reward_chain_block.proof_of_space.pool_public_key,
     },
-    {
-      name: <Trans>Farmer Puzzle Hash</Trans>,
-      value: (
-        <Link
-          target="_blank"
-          href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
-        >
-          {currencyCode
-            ? toBech32m(
-                blockRecord.farmer_puzzle_hash,
-                currencyCode.toLowerCase(),
-              )
-            : ''}
-        </Link>
-      ),
-    },
-    {
-      name: <Trans>Pool Puzzle Hash</Trans>,
-      value: (
-        <Link
-          target="_blank"
-          href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}
-        >
-          {currencyCode
-            ? toBech32m(
-                blockRecord.pool_puzzle_hash,
-                currencyCode.toLowerCase(),
-              )
-            : ''}
-        </Link>
-      ),
-    },
+    // {
+    //   name: <Trans>Farmer Puzzle Hash</Trans>,
+    //   value: (
+    //     <Link
+    //       target="_blank"
+    //       href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
+    //     >
+    //       {currencyCode
+    //         ? toBech32m(
+    //             blockRecord.farmer_puzzle_hash,
+    //             currencyCode.toLowerCase(),
+    //           )
+    //         : ''}
+    //     </Link>
+    //   ),
+    // },
+    // {
+    //   name: <Trans>Pool Puzzle Hash</Trans>,
+    //   value: (
+    //     <Link
+    //       target="_blank"
+    //       href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}
+    //     >
+    //       {currencyCode
+    //         ? toBech32m(
+    //             blockRecord.pool_puzzle_hash,
+    //             currencyCode.toLowerCase(),
+    //           )
+    //         : ''}
+    //     </Link>
+    //   ),
+    // },
     {
       name: <Trans>Plot Id</Trans>,
       value: newPlotId,

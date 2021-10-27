@@ -48,8 +48,13 @@ msgstr "En innhøster er en tjeneste som kjører på en maskin hvor plottet/ene 
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chaingreen Blockchain"
-msgstr "Om Chaingreen Blockchain"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:431
+#: src/electron/main.tsx:518
+#~ msgid "About Chaingreen Blockchain"
+#~ msgstr "Om Chaingreen Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -311,11 +316,19 @@ msgstr "Avbryt og Bruk"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Advarsel, sletting av disse plott vil slette dem for alltid. Sjekk at lagringsenhetene er riktig tilkoblet."
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:428
 msgid "Chaingreen"
-msgstr ""
+msgstr "Chaingreen"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:367
+#~ msgid "Chaingreen Blockchain Wiki"
+#~ msgstr "Chaingreen Blokkjede Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Chaingreen Wallet"
+msgstr "Chaingreen Pengbok"
+
+#: src/electron/main.tsx:367
 msgid "Chaingreen Wiki"
 msgstr ""
 
@@ -345,18 +358,6 @@ msgstr ""
 #: src/electron/main.tsx:410
 msgid "Chat on KeyBase"
 msgstr "Chat på KeyBase"
-
-#: src/electron/main.tsx:428
-msgid "Chaingreen"
-msgstr "Chaingreen"
-
-#: src/electron/main.tsx:367
-msgid "Chaingreen Blockchain Wiki"
-msgstr "Chaingreen Blokkjede Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chaingreen Wallet"
-msgstr "Chaingreen Pengbok"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -413,7 +414,7 @@ msgstr "Farget mynt"
 msgid "Coloured Coin Options"
 msgstr "Farget mynt alternativer"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:194
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -771,6 +772,7 @@ msgid "Drag and drop attestation packet(s)"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:39
+#: src/components/wallet/create/recoverDIDWallet.js:294
 msgid "Drag and drop offer file"
 msgstr "Dra og slipp filene her"
 
@@ -823,8 +825,12 @@ msgid "Error"
 msgstr "Feil"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "Feil: Kan ikke sende chaingreen til farget adresse. Vennligst skriv inn en chia-adresse."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+#~ msgstr "Feil: Kan ikke sende chaingreen til farget adresse. Vennligst skriv inn en chia-adresse."
+
+#: src/components/wallet/standard/WalletStandard.tsx:450
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1800,7 +1806,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:63
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr ""
 
@@ -2460,7 +2466,11 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr ""
+
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
@@ -2797,11 +2807,7 @@ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chaingreen? Add more plots to your farm."
-msgstr ""
-
-#: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chaingreen? Add more plots to your farm."
-#~ msgstr "Vil du tjene mer Chaingreen? Legg til flere plott i gården din."
+msgstr "Vil du tjene mer Chaingreen? Legg til flere plott i gården din."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"

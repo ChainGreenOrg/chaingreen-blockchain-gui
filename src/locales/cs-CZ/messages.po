@@ -48,8 +48,13 @@ msgstr "Tzv. harvester (sklízeč) je služba provozovaná na počítači, kde j
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chaingreen Blockchain"
-msgstr "O Chaingreen Blockchainu"
+msgid "About Chaingreen"
+msgstr ""
+
+#: src/electron/main.tsx:431
+#: src/electron/main.tsx:518
+#~ msgid "About Chaingreen Blockchain"
+#~ msgstr "O Chaingreen Blockchainu"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -311,11 +316,19 @@ msgstr "Zrušit a Utratit"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Pozor, smazání těchto polí je nevratné. Zkontrolujte, zda jsou paměťová zařízení správně připojena."
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:428
 msgid "Chaingreen"
-msgstr ""
+msgstr "Chaingreen"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:367
+#~ msgid "Chaingreen Blockchain Wiki"
+#~ msgstr "Chaingreen Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Chaingreen Wallet"
+msgstr "Chaingreen peněženka"
+
+#: src/electron/main.tsx:367
 msgid "Chaingreen Wiki"
 msgstr ""
 
@@ -345,18 +358,6 @@ msgstr "Změnit Pool"
 #: src/electron/main.tsx:410
 msgid "Chat on KeyBase"
 msgstr "Chat na KeyBase"
-
-#: src/electron/main.tsx:428
-msgid "Chaingreen"
-msgstr "Chaingreen"
-
-#: src/electron/main.tsx:367
-msgid "Chaingreen Blockchain Wiki"
-msgstr "Chaingreen Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chaingreen Wallet"
-msgstr "Chaingreen peněženka"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -413,7 +414,7 @@ msgstr "Barevná Mince"
 msgid "Coloured Coin Options"
 msgstr "Nastavení Barevné Mince"
 
-#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:167
 #: src/electron/main.tsx:194
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
@@ -771,6 +772,7 @@ msgid "Drag and drop attestation packet(s)"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:39
+#: src/components/wallet/create/recoverDIDWallet.js:294
 msgid "Drag and drop offer file"
 msgstr "Přetáhněte soubor nabídky"
 
@@ -823,8 +825,12 @@ msgid "Error"
 msgstr "Chyba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "Chyba: Chaingreen nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chaingreen adresu."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+#~ msgstr "Chyba: Chaingreen nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chaingreen adresu."
+
+#: src/components/wallet/standard/WalletStandard.tsx:450
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1800,7 +1806,7 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "Body úspěšné v posledních 24 hodinách"
 
 #: src/components/dashboard/DashboardSideBar.tsx:63
-#: src/components/pool/Pool.tsx:25
+#: src/components/pool/Pool.tsx:24
 msgid "Pool"
 msgstr "Pool"
 
@@ -2460,8 +2466,12 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Souhrnná výše transakčních poplatků v tomto bloku. Vyplaceno farmářům."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Toto jsou instrukce, jak chce farmář dostávat platbu. Ve výchozím nastavení se jedná o adresu CGN, ale může být nastaven libovolný řetězec o velikosti menší než 1024 znaků, aby mohl zastupovat jiný blockchain nebo identifikátor platebního systému."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN  address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "Toto jsou instrukce, jak chce farmář dostávat platbu. Ve výchozím nastavení se jedná o adresu CGN, ale může být nastaven libovolný řetězec o velikosti menší než 1024 znaků, aby mohl zastupovat jiný blockchain nebo identifikátor platebního systému."
+
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an CGN address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2797,11 +2807,7 @@ msgstr "Chceš se připojit k poolu? Vytvoř NFT pole"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chaingreen? Add more plots to your farm."
-msgstr ""
-
-#: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chaingreen? Add more plots to your farm."
-#~ msgstr "Chcete získat více Chaingreen? Přidejte další pole do vaší farmy."
+msgstr "Chcete získat více Chaingreen? Přidejte další pole do vaší farmy."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"

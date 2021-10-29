@@ -831,12 +831,12 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "خطا: چیـا را به آدرس رنگی نمی‌توان ارسال کرد. لطفاً یک آدرس چیا وارد کنید."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "خطا: چیـا را به آدرس رنگی نمی‌توان ارسال کرد. لطفاً یک آدرس چیا وارد کنید."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -891,8 +891,8 @@ msgid "Farmer Public Key"
 msgstr "Farmer Public Key"
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "مزرعه دارِ جورچین در هم ریزی(هش)"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "مزرعه دارِ جورچین در هم ریزی(هش)"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1838,8 +1838,8 @@ msgid "Pool Public Key"
 msgstr "Pool Public Key"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "استخر جورچین هش(در هم سازی)"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "استخر جورچین هش(در هم سازی)"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

@@ -831,12 +831,12 @@ msgid "Error"
 msgstr "Fehler"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "Fehler: Chaingreen kann nicht zu der farbigen Adresse geschickt werden. Bitte gib eine Chaingreen Adresse ein."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "Fehler: Chaingreen kann nicht zu der farbigen Adresse geschickt werden. Bitte gib eine Chaingreen Adresse ein."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -891,8 +891,8 @@ msgid "Farmer Public Key"
 msgstr ""
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "Farmer Puzzle Hash"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Farmer Puzzle Hash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1840,8 +1840,8 @@ msgid "Pool Public Key"
 msgstr "Öffentlicher Pool Schlüssel"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "Pool Puzzle Hash"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Pool Puzzle Hash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

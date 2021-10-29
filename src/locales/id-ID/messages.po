@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "Error: Tidak dapat mengirim Chaingreen ke alamat berwarna. Mohon masukkan sebuah alamat Chaingreen."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "Error: Tidak dapat mengirim Chaingreen ke alamat berwarna. Mohon masukkan sebuah alamat Chaingreen."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr ""
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "Teka-teki Hash Farmer"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Teka-teki Hash Farmer"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1834,8 +1834,8 @@ msgid "Pool Public Key"
 msgstr "Pool Kunci Publik"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "Teka-teki Hash Pool"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Teka-teki Hash Pool"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

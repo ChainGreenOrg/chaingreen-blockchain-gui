@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "错误"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "错误：无法发送奇亚到染色地址。请输入奇亚钱包地址。"
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "错误：无法发送奇亚到染色地址。请输入奇亚钱包地址。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr "农民公钥"
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "农民解谜哈希"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "农民解谜哈希"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1832,8 +1832,8 @@ msgid "Pool Public Key"
 msgstr "池公钥"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "池谜语哈希"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "池谜语哈希"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

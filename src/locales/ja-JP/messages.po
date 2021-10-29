@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "エラー"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr ""
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "農家パズルハッシュ値"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "農家パズルハッシュ値"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1832,8 +1832,8 @@ msgid "Pool Public Key"
 msgstr "プール公開鍵"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "プールパズルハッシュ値"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "プールパズルハッシュ値"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

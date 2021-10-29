@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "에러"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "에러: 치아를 컬러드 주소로 보낼 수 없습니다. 치아 주소를 입력하세요."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "에러: 치아를 컬러드 주소로 보낼 수 없습니다. 치아 주소를 입력하세요."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr "파머 공개 키"
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "수확기 퍼즐 해시"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "수확기 퍼즐 해시"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1832,8 +1832,8 @@ msgid "Pool Public Key"
 msgstr "풀 퍼블릭 키"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "풀 퍼즐 해시"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "풀 퍼즐 해시"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

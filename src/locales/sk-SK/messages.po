@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "Chyba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "Chyba: Chaingreen nie je možné odoslať na farebnú adresu. Zadajte prosím Chaingreen adresu."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "Chyba: Chaingreen nie je možné odoslať na farebnú adresu. Zadajte prosím Chaingreen adresu."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr ""
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "Hash hádaniek pre farmára"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Hash hádaniek pre farmára"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1832,8 +1832,8 @@ msgid "Pool Public Key"
 msgstr "Verejný kľúč združenia"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "Hádankový klúč združenia"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Hádankový klúč združenia"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

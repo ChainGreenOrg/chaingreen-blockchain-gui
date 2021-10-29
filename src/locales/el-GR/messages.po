@@ -825,12 +825,12 @@ msgid "Error"
 msgstr "Σφάλμα"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr "Σφάλμα: Δεν μπορείτε να στείλετε chaingreen σε χρωματισμένη διεύθυνση. Παρακαλώ εισάγετε μια διεύθυνση chaingreen."
+msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+msgstr "Σφάλμα: Δεν μπορείτε να στείλετε chaingreen σε χρωματισμένη διεύθυνση. Παρακαλώ εισάγετε μια διεύθυνση chaingreen."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-msgstr ""
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -885,8 +885,8 @@ msgid "Farmer Public Key"
 msgstr ""
 
 #: src/components/block/Block.jsx:268
-msgid "Farmer Puzzle Hash"
-msgstr "Farmer Puzzle Hash"
+#~ msgid "Farmer Puzzle Hash"
+#~ msgstr "Farmer Puzzle Hash"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:167
 msgid "Farmer Reward Address"
@@ -1832,8 +1832,8 @@ msgid "Pool Public Key"
 msgstr "Public Key Πισίνας"
 
 #: src/components/block/Block.jsx:284
-msgid "Pool Puzzle Hash"
-msgstr "Puzzle Hash Πισίνας"
+#~ msgid "Pool Puzzle Hash"
+#~ msgstr "Puzzle Hash Πισίνας"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:177
 msgid "Pool Reward Address"

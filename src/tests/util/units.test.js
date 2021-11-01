@@ -2,13 +2,13 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of chia', () => {
-      const result = units.getUnit('chia');
+    it('gets unit of chaingreen', () => {
+      const result = units.getUnit('chaingreen');
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo', () => {
-      const result = units.getUnit('mojo');
+    it('gets unit of mio', () => {
+      const result = units.getUnit('mio');
 
       expect(result).toBe(1e-12);
     });
@@ -18,7 +18,7 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('CHIA');
+      const result = units.getUnit('CHAINGREEN');
 
       expect(result).toBe(1);
     });
@@ -27,8 +27,8 @@ describe('units', () => {
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo using alias', () => {
-      const result = units.getUnit('mj');
+    it('gets unit of mio using alias', () => {
+      const result = units.getUnit('mio');
 
       expect(result).toBe(1e-12);
     });
@@ -46,19 +46,19 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of chia', () => {
-      const result = units.getDisplay('chia');
+    it('gets display of chaingreen', () => {
+      const result = units.getDisplay('chaingreen');
 
       expect(result).toEqual({
-        format: '{amount} CH',
+        format: '{amount} CGN',
         fractionDigits: 12,
       });
     });
-    it('gets display of mojo', () => {
-      const result = units.getDisplay('mojo');
+    it('gets display of mio', () => {
+      const result = units.getDisplay('mio');
 
       expect(result).toEqual({
-        format: '{amount} MJ',
+        format: '{amount} MIO',
         fractionDigits: 0,
       });
     });
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('chia', 9);
+      units.setUnit('chaingreen', 9);
 
-      const result = units.getUnit('chia');
+      const result = units.getUnit('chaingreen');
 
       expect(result).toEqual(9);
 
-      units.setUnit('chia', 1);
+      units.setUnit('chaingreen', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,12 +111,12 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('chia', {
+      units.setDisplay('chaingreen', {
         format: '{amount} TCGN',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('chia');
+      const result = units.getDisplay('chaingreen');
 
       expect(result).toEqual({
         format: '{amount} TCGN',

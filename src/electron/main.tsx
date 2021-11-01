@@ -367,7 +367,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Chaingreen Wiki' }),
             click: () => {
               openExternal(
-                'https://github.com/ChaingreenOrg/chaingreen-blockchain/wiki',
+                'https://github.com/Chia-Network/chia-blockchain/wiki',
               );
             },
           },
@@ -383,7 +383,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/releases',
+                'https://github.com/ChaingreenOrg/chaingreen-blockchain/releases',
               );
             },
           },
@@ -391,7 +391,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/blob/master/CONTRIBUTING.md',
+                'https://github.com/ChaingreenOrg/chaingreen-blockchain/blob/master/CONTRIBUTING.md',
               );
             },
           },
@@ -402,7 +402,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/issues',
+                'https://github.com/ChaingreenOrg/chaingreen-blockchain/issues',
               );
             },
           },
@@ -415,7 +415,7 @@ if (!handleSquirrelEvent()) {
           {
             label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
             click: () => {
-              openExternal('https://twitter.com/chia_project');
+              openExternal('https://twitter.com/chaingreen_org');
             },
           },
         ],

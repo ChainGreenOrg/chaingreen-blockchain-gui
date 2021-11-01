@@ -24,7 +24,7 @@ msgstr "(Seçimlik)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 #~ msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
-#~ msgstr "Chia'nın bloklarını daha da keşfetmek ister misiniz? Açık kaynaklı bir geliştirici tarafından oluşturulan <0> Chaingreen Explorer </0> 'a göz atın."
+#~ msgstr "Chaingreen'nın bloklarını daha da keşfetmek ister misiniz? Açık kaynaklı bir geliştirici tarafından oluşturulan <0> Chaingreen Explorer </0> 'a göz atın."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -829,7 +829,7 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "Hata: Renkli adrese chaingreen gönderemiyorum. Lütfen bir chaingreen adresi girin."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -2560,7 +2560,7 @@ msgstr "Bu ticaret, bu blok yüksekliğindeki blok zincirine dahil edildi"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Chaingreen is no longer compatible with the blockchain and can not safely farm."
-msgstr "Chia'nın bu sürümü artık blockchain ile uyumlu değil ve güvenli bir şekilde hasat yapamıyor."
+msgstr "Chaingreen'nın bu sürümü artık blockchain ile uyumlu değil ve güvenli bir şekilde hasat yapamıyor."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2836,7 +2836,7 @@ msgstr "Ağırlık, buna kadar ve buna dahil tüm alt blokların toplam zorluğu
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
-msgstr "Chia'ya hoş geldiniz. Lütfen mevcut bir anahtarla giriş yapın veya yeni bir anahtar oluşturun."
+msgstr "Chaingreen'ya hoş geldiniz. Lütfen mevcut bir anahtarla giriş yapın veya yeni bir anahtar oluşturun."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"

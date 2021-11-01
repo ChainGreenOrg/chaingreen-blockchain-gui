@@ -1,33 +1,33 @@
 const chaingreen = require('../../util/chaingreen');
 
-describe('chia', () => {
-  it('converts number mojo to chia', () => {
-    const result = chaingreen.mojo_to_chia(1000000);
+describe('chaingreen', () => {
+  it('converts number mio to chaingreen', () => {
+    const result = chaingreen.mio_to_chaingreen(1000000);
 
     expect(result).toBe(0.000001);
   });
-  it('converts string mojo to chia', () => {
-    const result = chaingreen.mojo_to_chia('1000000');
+  it('converts string mio to chaingreen', () => {
+    const result = chaingreen.mio_to_chaingreen('1000000');
 
     expect(result).toBe(0.000001);
   });
-  it('converts number mojo to chaingreen string', () => {
-    const result = chaingreen.mojo_to_chia_string(1000000);
+  it('converts number mio to chaingreen string', () => {
+    const result = chaingreen.mio_to_chaingreen_string(1000000);
 
     expect(result).toBe('0.000001');
   });
-  it('converts string mojo to chaingreen string', () => {
-    const result = chaingreen.mojo_to_chia_string('1000000');
+  it('converts string mio to chaingreen string', () => {
+    const result = chaingreen.mio_to_chaingreen_string('1000000');
 
     expect(result).toBe('0.000001');
   });
-  it('converts number chaingreen to mojo', () => {
-    const result = chaingreen.chia_to_mojo(0.000001);
+  it('converts number chaingreen to mio', () => {
+    const result = chaingreen.chaingreen_to_mio(0.000001);
 
     expect(result).toBe(1000000);
   });
-  it('converts string chaingreen to mojo', () => {
-    const result = chaingreen.chia_to_mojo('0.000001');
+  it('converts string chaingreen to mio', () => {
+    const result = chaingreen.chaingreen_to_mio('0.000001');
 
     expect(result).toBe(1000000);
   });

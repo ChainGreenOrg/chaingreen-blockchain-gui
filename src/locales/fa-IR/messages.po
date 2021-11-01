@@ -835,7 +835,7 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "خطا: چیـا را به آدرس رنگی نمی‌توان ارسال کرد. لطفاً یک آدرس چیا وارد کنید."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20

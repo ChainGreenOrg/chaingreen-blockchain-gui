@@ -24,7 +24,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 #~ msgid "*Want to explore Chaingreen’s blocks further? Check out <0>Chaingreen Explorer</0> built by an open source developer."
-#~ msgstr "Chia의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Chaingreen Explorer</0>를 확인하세요."
+#~ msgstr "Chaingreen의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Chaingreen Explorer</0>를 확인하세요."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -829,7 +829,7 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "에러: 치아를 컬러드 주소로 보낼 수 없습니다. 치아 주소를 입력하세요."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -2282,7 +2282,7 @@ msgstr "지출 간격 길이 (블록 수)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (chaingreen per interval): {0}"
-msgstr "지출 한도 (간격 당 chia): {0}"
+msgstr "지출 한도 (간격 당 chaingreen): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2807,7 +2807,7 @@ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chaingreen? Add more plots to your farm."
-msgstr "Chia를 더 얻고 싶다면, 더 많은 플롯들을 당신의 농장에 추가하세요."
+msgstr "Chaingreen를 더 얻고 싶다면, 더 많은 플롯들을 당신의 농장에 추가하세요."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2836,7 +2836,7 @@ msgstr "무게는 이것을 포함하여 모든 서브 블록의 총 추가 난�
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Chaingreen. Please log in with an existing key, or create a new key."
-msgstr "Chia에 오신 것을 환영합니다. 사용하고 계신 키로 로그인하시거나 새로운 키를 만드세요."
+msgstr "Chaingreen에 오신 것을 환영합니다. 사용하고 계신 키로 로그인하시거나 새로운 키를 만드세요."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"

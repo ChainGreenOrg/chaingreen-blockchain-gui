@@ -829,8 +829,8 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "Error: Cannot send chaingreen to colored address. Please enter a chaingreen address."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
-#~ msgstr "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
+#~ msgstr "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"

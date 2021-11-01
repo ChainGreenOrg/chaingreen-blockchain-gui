@@ -326,7 +326,7 @@ msgstr "Chaingreen"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Chaingreen Wallet"
-msgstr "Chia-plånbok"
+msgstr "Chaingreen-plånbok"
 
 #: src/electron/main.tsx:367
 msgid "Chaingreen Wiki"
@@ -826,10 +826,10 @@ msgstr "Fel"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "Fel: det går inte att skicka chaingreen till färgad adress. Ange en chia-adress."
+msgstr "Fel: det går inte att skicka chaingreen till färgad adress. Ange en chaingreen-adress."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20

@@ -54,7 +54,7 @@ msgstr ""
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
 #~ msgid "About Chaingreen Blockchain"
-#~ msgstr "关于奇亚Chia区块链项目"
+#~ msgstr "关于奇亚Chaingreen区块链项目"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -829,7 +829,7 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "错误：无法发送奇亚到染色地址。请输入奇亚钱包地址。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20

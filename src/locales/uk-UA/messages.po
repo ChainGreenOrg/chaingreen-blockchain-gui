@@ -829,7 +829,7 @@ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingr
 msgstr "Помилка: Не вдалося надіслати chaingreen на кольорову адресу. Будь ласка, введіть chaingreen-адресу."
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20

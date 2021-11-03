@@ -826,11 +826,7 @@ msgstr "Error, she's knacked"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-
-#: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr ""
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"

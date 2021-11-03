@@ -826,11 +826,7 @@ msgstr "錯誤"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-msgstr "錯誤：不能發送 Chaingreen 到有色地址。請輸入 Chaingreen 地址。"
-
-#: src/components/wallet/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chaingreen to coloured address. Please enter a chaingreen address."
-#~ msgstr ""
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
